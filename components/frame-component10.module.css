@@ -1,0 +1,328 @@
+.frameChild {
+  height: 38px;
+  width: 418px;
+  position: relative;
+  background-color: var(--color-gray-900);
+  display: none;
+  max-width: 100%;
+}
+.download21 {
+  height: 22px;
+  width: 22px;
+  object-fit: cover;
+  min-height: 22px;
+}
+.download21,
+.findReliancePetrol {
+  position: relative;
+  z-index: 1;
+}
+.findReliancePetrolBunksNeaWrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) 0 0;
+  box-sizing: border-box;
+  min-width: 159px;
+}
+.frameGroup,
+.rectangleParent {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.rectangleParent {
+  background-color: var(--color-gray-900);
+  flex-direction: row;
+  padding: var(--padding-5xs) var(--padding-52xl);
+  box-sizing: border-box;
+  gap: var(--gap-4xs);
+}
+.frameGroup {
+  flex-direction: column;
+  gap: var(--gap-8xl);
+}
+.nagpur {
+  font-weight: 800;
+}
+.dieselBunksInContainer {
+  position: relative;
+}
+.dieselBunksInNagpurWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  font-size: var(--font-size-xl);
+}
+.frameItem {
+  width: 447px;
+  height: 2516px;
+  position: relative;
+  display: none;
+  max-width: 100%;
+}
+.frameInner {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-sm);
+  border: 1px solid var(--color-silver);
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.hussain,
+.nagpurChaonniCo3 {
+  margin: 0;
+}
+.nagpurChaonniCo3Container,
+.nagpurMaharastraEast {
+  position: relative;
+  z-index: 1;
+}
+.nagpurMaharastraEast {
+  color: var(--color-gray-800);
+}
+.chevronRightIcon {
+  width: 34px;
+  height: 34px;
+  position: absolute;
+  margin: 0 !important;
+  right: 44px;
+  bottom: 28px;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.rectangleContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-mid) var(--padding-6xl) var(--padding-mini);
+  position: relative;
+  gap: var(--gap-8xs);
+  z-index: 1;
+}
+.rectangleDiv {
+  height: 97px;
+  width: 358px;
+  position: relative;
+  border-radius: var(--br-sm);
+  border: 1px solid var(--color-silver);
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+.nagpurCo5Hiwarkar {
+  position: relative;
+  white-space: pre-wrap;
+  z-index: 1;
+}
+.nagpurMaharastraEast1 {
+  position: relative;
+  color: var(--color-gray-800);
+  z-index: 1;
+}
+.nagpurCo5HiwarkarPetroParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-lgi);
+}
+.chevronRightIcon1 {
+  width: 34px;
+  height: 34px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.chevronRightWrapper {
+  height: 44px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-3xs);
+  box-sizing: border-box;
+}
+.frameChild1,
+.groupDiv {
+  border-radius: var(--br-sm);
+  border: 1px solid var(--color-silver);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.groupDiv {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-xl) var(--padding-6xl) var(--padding-lg);
+  gap: var(--gap-38xl);
+  z-index: 1;
+}
+.frameChild1 {
+  height: 97px;
+  width: 358px;
+  position: relative;
+  display: none;
+}
+.dighori,
+.nagpurMaharashtraEast {
+  height: 20px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  debug_commit: f6aba90;
+}
+.dighori {
+  width: 52px;
+}
+.nagpurMaharashtraEast {
+  align-self: stretch;
+  color: var(--color-gray-800);
+}
+.dighoriParent,
+.frameWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.dighoriParent {
+  align-self: stretch;
+  height: 43px;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-4xl);
+  gap: var(--gap-lgi);
+}
+.frameWrapper {
+  width: 186px;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-7xs);
+}
+.chevronRightIcon2 {
+  height: 34px;
+  width: 34px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.rectangleParent1 {
+  align-self: stretch;
+  border-radius: var(--br-sm);
+  border: 1px solid var(--color-silver);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: var(--padding-xl) var(--padding-25xl) var(--padding-9xl)
+    var(--padding-6xl);
+  max-width: 100%;
+  gap: var(--gap-xl);
+  z-index: 1;
+}
+.bunks,
+.circleCreator,
+.frameParent,
+.rectangleGroup {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.rectangleGroup {
+  margin-left: -25px;
+  width: 447px;
+  flex-direction: column;
+  padding: var(--padding-2xl) var(--padding-23xl);
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+  flex-shrink: 0;
+  debug_commit: f6aba90;
+}
+.bunks,
+.circleCreator,
+.frameParent {
+  flex-direction: row;
+  max-width: 100%;
+}
+.bunks {
+  height: 256px;
+  width: 395px;
+  overflow-y: auto;
+  flex-shrink: 0;
+}
+.circleCreator,
+.frameParent {
+  padding: 0 var(--padding-xs) 0 var(--padding-2xs);
+  box-sizing: border-box;
+}
+.frameParent {
+  align-self: stretch;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-gray-600);
+  overflow-y: auto;
+  flex-direction: column;
+  padding: 0 0 var(--padding-base);
+  gap: var(--gap-61xl);
+  text-align: left;
+  font-size: var(--font-size-mini);
+  color: var(--color-white);
+  font-family: var(--font-nunito);
+}
+@media screen and (max-width: 1200px) {
+  .rectangleGroup {
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .rectangleParent {
+    flex-wrap: wrap;
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .dieselBunksInContainer {
+    font-size: var(--font-size-base);
+  }
+  .groupDiv {
+    flex-wrap: wrap;
+    gap: 57px 28px;
+  }
+  .rectangleGroup,
+  .rectangleParent1 {
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .rectangleParent1 {
+    flex-wrap: wrap;
+  }
+  .rectangleGroup {
+    padding-left: var(--padding-xl);
+  }
+  .bunks {
+    height: auto;
+  }
+  .frameParent {
+    gap: 40px 80px;
+  }
+}

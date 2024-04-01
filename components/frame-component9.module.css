@@ -1,0 +1,184 @@
+.frameChild {
+  height: 48px;
+  width: 51px;
+  position: relative;
+  border-radius: var(--br-11xs);
+  background-color: var(--color-dimgray-300);
+  display: none;
+}
+.userAltFillIcon {
+  height: 54px;
+  width: 54px;
+  position: relative;
+  z-index: 1;
+}
+.rectangleParent {
+  align-self: stretch;
+  border-radius: var(--br-11xs);
+  background-color: var(--color-dimgray-300);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.div,
+.user {
+  position: relative;
+  display: inline-block;
+  min-width: 38px;
+  flex-shrink: 0;
+  debug_commit: f6aba90;
+}
+.div {
+  margin-top: -4px;
+  min-width: 108px;
+}
+.wrapper {
+  height: 21px;
+  flex-direction: row;
+  padding: 0;
+  box-sizing: border-box;
+}
+.addInvoice,
+.addInvoiceWrapper,
+.frameContainer,
+.wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.addInvoice {
+  flex-direction: column;
+}
+.addInvoiceWrapper,
+.frameContainer {
+  flex: 1;
+}
+.addInvoiceWrapper {
+  flex-direction: column;
+  padding: var(--padding-9xs) 0 0;
+}
+.frameContainer {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-3xs);
+}
+.invoices {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  min-width: 90px;
+  white-space: nowrap;
+}
+.frameGroup,
+.invoicesWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.invoicesWrapper {
+  flex-direction: column;
+  padding: var(--padding-smi) 0 0;
+  font-size: var(--font-size-6xl);
+}
+.frameGroup {
+  align-self: stretch;
+  width: 394px;
+  flex-direction: row;
+  gap: var(--gap-113xl);
+  max-width: 100%;
+}
+.frameItem {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-10xs);
+  background-color: var(--color-midnightblue-100);
+}
+.plusIcon {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.plusSymbol {
+  height: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) 0 0;
+  box-sizing: border-box;
+}
+.addInvoice1 {
+  position: relative;
+  display: inline-block;
+  min-width: 95px;
+  white-space: nowrap;
+  z-index: 1;
+}
+.frameWrapper,
+.rectangleGroup {
+  display: flex;
+  align-items: flex-start;
+}
+.rectangleGroup {
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: var(--padding-xs) var(--padding-mid);
+  position: relative;
+  gap: var(--gap-9xs);
+}
+.frameWrapper {
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-11xs);
+}
+.frameParent {
+  align-self: stretch;
+  height: 79px;
+  background-color: var(--color-gray-600);
+  box-shadow: 0 4px 35.1px 13px rgba(116, 116, 116, 0.05);
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: var(--padding-xs) var(--padding-31xl) var(--padding-smi)
+    var(--padding-14xl);
+  box-sizing: border-box;
+  top: 0;
+  z-index: 99;
+  position: sticky;
+  max-width: 100%;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-white);
+  font-family: var(--font-nunito);
+}
+@media screen and (max-width: 750px) {
+  .addInvoice {
+    display: none;
+  }
+  .frameParent {
+    padding-right: var(--padding-6xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .frameGroup {
+    gap: 132px 66px;
+  }
+}

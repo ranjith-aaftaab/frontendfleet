@@ -60,7 +60,7 @@
   justify-content: flex-start;
   padding: var(--padding-6xl) var(--padding-mid) var(--padding-5xl)
     var(--padding-xl);
-  gap: 8px;
+  gap: var(--gap-5xs);
 }
 .frameItem {
   height: 76px;

@@ -7,24 +7,24 @@ const FrameComponent3 = () => {
   const router = useRouter();
 
   const onInvoicesTextClick = useCallback(() => {
-    // Please sync "Invoices" to the project
-  }, []);
+    router.push("/invoices");
+  }, [router]);
 
   const onReportsTextClick = useCallback(() => {
-    // Please sync "Reports" to the project
-  }, []);
+    router.push("/reports");
+  }, [router]);
 
   const onProfileTextClick = useCallback(() => {
-    // Please sync "Profile" to the project
-  }, []);
+    router.push("/profile");
+  }, [router]);
 
   const onPartiesTextClick = useCallback(() => {
     router.push("/parties");
   }, [router]);
 
   const onTripsTextClick = useCallback(() => {
-    // Please sync "Trips" to the project
-  }, []);
+    router.push("/trips");
+  }, [router]);
 
   const onDriversTextClick = useCallback(() => {
     router.push("/drivers");

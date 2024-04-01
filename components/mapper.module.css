@@ -1,0 +1,120 @@
+.deskLightIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+}
+.parties {
+  position: relative;
+  display: inline-block;
+  min-width: 57px;
+  cursor: pointer;
+}
+.searcher {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-6xs);
+}
+.mapPinIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.trips {
+  position: relative;
+  display: inline-block;
+  min-width: 40px;
+  cursor: pointer;
+}
+.combiner,
+.selector {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.combiner {
+  flex-direction: column;
+  padding: var(--padding-10xs) 0 0;
+}
+.selector {
+  flex: 1;
+  flex-direction: row;
+  gap: var(--gap-6xs);
+}
+.userCicrleLightIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+}
+.suppliers {
+  position: relative;
+  display: inline-block;
+  min-width: 77px;
+  cursor: pointer;
+}
+.converter,
+.decoder {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.converter {
+  flex-direction: column;
+  padding: var(--padding-11xs) 0 0;
+}
+.decoder {
+  flex: 1;
+  flex-direction: row;
+  gap: var(--gap-6xs);
+}
+.steeringWheelIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.drivers {
+  position: relative;
+  display: inline-block;
+  min-width: 58px;
+  cursor: pointer;
+}
+.driversWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) 0 0;
+}
+.selector1 {
+  flex: 1;
+  flex-direction: row;
+  gap: var(--gap-6xs);
+}
+.mapper,
+.reducer,
+.selector1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.reducer {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-7xl-3);
+}
+.mapper {
+  height: 187px;
+  flex-direction: row;
+  padding: 0 var(--padding-4xs);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-white);
+  font-family: var(--font-nunito);
+}

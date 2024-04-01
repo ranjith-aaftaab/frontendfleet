@@ -1,0 +1,445 @@
+.paperLight {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  display: none;
+  z-index: 0;
+}
+.shopLightIcon {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  margin: 0 !important;
+  top: 434px;
+  left: 20px;
+  z-index: 1;
+}
+.truckIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.trucks {
+  position: relative;
+  display: inline-block;
+  min-width: 52px;
+  cursor: pointer;
+}
+.truckParent {
+  height: 25px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-6xs);
+}
+.icons8Money301 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  object-fit: cover;
+}
+.expenses {
+  position: relative;
+  display: inline-block;
+  min-width: 78px;
+  cursor: pointer;
+}
+.expensesWrapper,
+.icons8Money301Parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.expensesWrapper {
+  flex-direction: column;
+  padding: var(--padding-11xs) 0 0;
+}
+.icons8Money301Parent {
+  height: 27px;
+  flex-direction: row;
+  gap: var(--gap-6xs);
+}
+.gasPump241Icon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  object-fit: cover;
+  display: none;
+}
+.frameChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
+  z-index: 1;
+}
+.frameItem {
+  top: 4px;
+  width: 4px;
+}
+.frameInner,
+.frameItem,
+.vectorIcon {
+  position: absolute;
+  left: 4px;
+  border-radius: var(--br-11xs);
+  height: 1px;
+  z-index: 2;
+}
+.frameInner {
+  top: 8px;
+  width: 1px;
+  object-fit: contain;
+}
+.vectorIcon {
+  top: 12px;
+  width: 3px;
+}
+.vectorParent {
+  height: 18px;
+  width: 18px;
+  position: relative;
+}
+.gasPump241Parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.orderLightIcon,
+.userBoxLightIcon {
+  width: 24px;
+  height: 24px;
+  position: relative;
+}
+.frameParent1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-11xl);
+}
+.dieselCard {
+  position: relative;
+  display: inline-block;
+  min-width: 94px;
+  white-space: nowrap;
+}
+.dieselCardWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) 0 0;
+}
+.invoices {
+  position: relative;
+  display: inline-block;
+  min-width: 65px;
+  cursor: pointer;
+  z-index: 1;
+  margin-left: -94px;
+}
+.frameParent4 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-10xl) 0 0;
+}
+.reports,
+.shopKhata {
+  position: relative;
+  display: inline-block;
+}
+.shopKhata {
+  min-width: 92px;
+  white-space: nowrap;
+}
+.reports {
+  min-width: 64px;
+  z-index: 1;
+}
+.nestedLoop {
+  flex-direction: column;
+  padding: var(--padding-11xs) 0 0;
+  margin-left: -92px;
+}
+.frameParent3,
+.nestedLoop,
+.sequenceHandler {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.sequenceHandler {
+  flex-direction: row;
+  padding: 0 var(--padding-9xl) 0 0;
+}
+.frameParent3 {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-5xl);
+}
+.profile {
+  position: relative;
+  display: inline-block;
+  min-width: 53px;
+  cursor: pointer;
+}
+.frameContainer,
+.frameDiv,
+.frameParent2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent2 {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-10xl);
+}
+.frameContainer,
+.frameDiv {
+  align-self: stretch;
+}
+.frameDiv {
+  flex: 1;
+  flex-direction: row;
+  gap: var(--gap-6xs);
+}
+.frameContainer {
+  width: 125px;
+  flex-direction: column;
+  gap: var(--gap-7xl-5);
+}
+.variableAssignerChild {
+  height: 17px;
+  width: 44px;
+  position: relative;
+  border-radius: var(--br-10xs);
+  background-color: var(--color-darkolivegreen-300);
+  display: none;
+}
+.new {
+  flex: 1;
+  position: relative;
+  text-shadow: 0 0 6px #0fa855;
+  z-index: 1;
+}
+.variableAssigner {
+  align-self: stretch;
+  border-radius: var(--br-10xs);
+  background-color: var(--color-darkolivegreen-300);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) var(--padding-3xs) var(--padding-11xs)
+    var(--padding-2xs);
+}
+.variableAssignerItem {
+  height: 17px;
+  width: 44px;
+  position: relative;
+  border-radius: var(--br-10xs);
+  background-color: var(--color-darkolivegreen-100);
+  display: none;
+}
+.new1 {
+  flex: 1;
+  position: relative;
+  text-shadow: 0 0 6px #0fa855;
+  z-index: 1;
+}
+.errorHandler,
+.treeBuilder,
+.variableAssigner1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.variableAssigner1 {
+  align-self: stretch;
+  border-radius: var(--br-10xs);
+  background-color: var(--color-darkolivegreen-100);
+  flex-direction: row;
+  padding: var(--padding-10xs) var(--padding-3xs) var(--padding-11xs)
+    var(--padding-2xs);
+}
+.errorHandler,
+.treeBuilder {
+  flex-direction: column;
+}
+.errorHandler {
+  align-self: stretch;
+  gap: var(--gap-18xl);
+}
+.treeBuilder {
+  width: 44px;
+  padding: var(--padding-36xl) 0 0;
+  box-sizing: border-box;
+  font-size: var(--font-size-4xs);
+  color: var(--color-mediumseagreen);
+}
+.frameGroup,
+.frameWrapper {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.frameGroup {
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.frameWrapper {
+  justify-content: flex-start;
+  padding: 0 var(--padding-2xs) 0 var(--padding-4xs);
+}
+.outputGenerator {
+  align-self: stretch;
+  height: 49px;
+  position: relative;
+  border-radius: var(--br-9xs);
+  background-color: var(--color-darkolivegreen-100);
+  box-shadow: 0 2px 22.7px 3px rgba(255, 255, 255, 0.05);
+  border: 1px solid var(--color-darkslategray-100);
+  box-sizing: border-box;
+}
+.frameParent {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-221xl);
+  gap: var(--gap-mini);
+}
+.untitledDesign1 {
+  width: 21px;
+  height: 27px;
+  position: relative;
+  object-fit: cover;
+}
+.randomizer {
+  height: 29px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+  box-sizing: border-box;
+}
+.martexTransport {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  z-index: 1;
+}
+.sampleTaker {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.untitledDesign2 {
+  width: 16px;
+  height: 17px;
+  position: relative;
+  object-fit: cover;
+}
+.formulaEvaluator {
+  height: 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) 0 0;
+  box-sizing: border-box;
+}
+.safeSecure {
+  position: relative;
+}
+.constantProvider,
+.labelApplier {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.constantProvider {
+  justify-content: flex-start;
+  gap: var(--gap-7xs);
+}
+.labelApplier {
+  justify-content: flex-end;
+  padding: 0 var(--padding-12xl) 0 var(--padding-17xl);
+  font-size: var(--font-size-mini);
+}
+.mergeCombiner,
+.paperLightParent,
+.thresholdChecker {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.paperLightParent,
+.thresholdChecker {
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-7xs);
+  font-size: var(--font-size-6xl);
+}
+.paperLightParent {
+  align-self: stretch;
+  flex: 1;
+  background-color: var(--color-gray-600);
+  overflow: hidden;
+  flex-direction: column;
+  padding: var(--padding-44xl) var(--padding-2xs) var(--padding-22xl);
+  position: relative;
+  gap: var(--gap-10xl);
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-white);
+  font-family: var(--font-nunito);
+}
+@media screen and (max-width: 950px) {
+  .paperLightParent {
+    padding-top: var(--padding-22xl);
+    padding-bottom: var(--padding-8xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 700px) {
+  .frameParent,
+  .paperLightParent {
+    padding-bottom: var(--padding-137xl);
+    box-sizing: border-box;
+  }
+  .paperLightParent {
+    padding-top: var(--padding-8xl);
+    padding-bottom: var(--padding-xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .martexTransport {
+    font-size: var(--font-size-xl);
+  }
+}

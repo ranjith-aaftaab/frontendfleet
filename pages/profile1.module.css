@@ -1,0 +1,358 @@
+.userCicrleLightIcon {
+  height: 30px;
+  width: 30px;
+  position: relative;
+  min-height: 30px;
+}
+.account {
+  position: relative;
+  display: inline-block;
+  min-width: 74px;
+  cursor: pointer;
+}
+.accountWrapper,
+.userCicrleLightParent,
+.usersContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.accountWrapper {
+  flex-direction: column;
+  padding: var(--padding-12xs) 0 0;
+}
+.userCicrleLightParent,
+.usersContainer {
+  flex-direction: row;
+}
+.userCicrleLightParent {
+  align-self: stretch;
+  gap: var(--gap-7xs);
+}
+.usersContainer {
+  height: 30px;
+  padding: 0 var(--padding-base);
+  box-sizing: border-box;
+}
+.frameChild {
+  height: 43px;
+  width: 235px;
+  position: relative;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-white);
+  display: none;
+}
+.userAltFillIcon {
+  height: 23px;
+  width: 18px;
+}
+.userAltFillIcon,
+.userManagaement {
+  position: relative;
+  z-index: 1;
+}
+.rectangleParent,
+.userCircleLightInstance {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.rectangleParent {
+  height: 43px;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-white);
+  flex-direction: row;
+  padding: var(--padding-4xs) var(--padding-2xs) var(--padding-6xs)
+    var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+  white-space: nowrap;
+  color: var(--color-black);
+}
+.userCircleLightInstance {
+  flex-direction: column;
+  gap: var(--gap-4xl);
+}
+.frameItem {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-darkslategray-300);
+  border: 1px solid var(--color-dimgray-100);
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+.logOutIcon,
+.logout {
+  position: absolute;
+  z-index: 1;
+}
+.logout {
+  top: 5px;
+  left: 52px;
+  display: inline-block;
+  min-width: 63px;
+}
+.logOutIcon {
+  top: 7px;
+  left: 20px;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+.rectangleGroup {
+  width: 230px;
+  height: 37px;
+  position: relative;
+  color: var(--color-gainsboro-200);
+}
+.logoutButton {
+  border-radius: 0 var(--br-6xs) 0 0;
+  background-color: var(--color-slategray);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-24xl) var(--padding-4xs) var(--padding-633xl)
+    var(--padding-4xl);
+  box-sizing: border-box;
+  gap: 41px;
+  min-width: 267px;
+}
+.d1Icon,
+.dButton {
+  height: 446px;
+  max-width: 100%;
+}
+.d1Icon {
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+  object-fit: cover;
+}
+.dButton {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xl);
+  box-sizing: border-box;
+}
+.userManagement {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 800;
+  font-family: inherit;
+}
+.newUsersContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+}
+.clickAdd {
+  margin: 0;
+  position: relative;
+  font-size: var(--font-size-16xl);
+  font-weight: 400;
+  font-family: inherit;
+}
+.newUsersContainerParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-mid);
+}
+.frameInner {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-10xs);
+  background-color: var(--color-midnightblue-100);
+}
+.plusIcon {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.clickAddUser {
+  height: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) 0 0;
+  box-sizing: border-box;
+}
+.addUser {
+  position: relative;
+  display: inline-block;
+  min-width: 77px;
+  z-index: 1;
+}
+.rectangleContainer,
+.userAltFillInstance {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.rectangleContainer {
+  width: 157px;
+  justify-content: flex-start;
+  padding: var(--padding-xs) var(--padding-2xl);
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-4xs);
+}
+.userAltFillInstance {
+  align-self: stretch;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  font-size: var(--font-size-lg);
+}
+.frameGroup,
+.userManagementPanel {
+  align-self: stretch;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.frameGroup {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--gap-5xl);
+}
+.userManagementPanel {
+  gap: var(--gap-mid);
+}
+.logoutButtonParent,
+.userManagementPanel,
+.userManagementPanelWrapper {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.userManagementPanelWrapper {
+  width: 525px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-40xl) 0 0;
+  box-sizing: border-box;
+  min-width: 525px;
+  font-size: 40px;
+}
+.logoutButtonParent {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.frameWrapper {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-57xl) 0 0;
+  box-sizing: border-box;
+  max-width: calc(100% - 280px);
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+  font-family: var(--font-nunito);
+}
+.frameParent,
+.frameWrapper,
+.profile {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent {
+  width: 1265px;
+  flex-direction: row;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-12xs);
+  max-width: 100%;
+}
+.profile {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-gray-700);
+  overflow: hidden;
+  flex-direction: column;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 950px) {
+  .logoutButton {
+    flex: 1;
+    padding-top: var(--padding-9xl);
+    padding-bottom: var(--padding-405xl);
+    box-sizing: border-box;
+  }
+  .userManagement {
+    font-size: 32px;
+  }
+  .clickAdd {
+    font-size: var(--font-size-9xl);
+  }
+  .userManagementPanelWrapper {
+    flex: 1;
+    padding-top: var(--padding-19xl);
+    box-sizing: border-box;
+  }
+  .logoutButtonParent {
+    flex-wrap: wrap;
+  }
+  .frameWrapper {
+    padding-top: var(--padding-30xl);
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .frameParent {
+    padding-left: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 700px) {
+  .userManagementPanelWrapper {
+    min-width: 100%;
+  }
+  .frameWrapper {
+    padding-top: var(--padding-13xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .account,
+  .logout {
+    font-size: var(--font-size-base);
+  }
+  .logoutButton {
+    gap: 20px 41px;
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-257xl);
+    box-sizing: border-box;
+  }
+  .userManagement {
+    font-size: var(--font-size-5xl);
+  }
+  .clickAdd {
+    font-size: var(--font-size-2xl);
+  }
+}

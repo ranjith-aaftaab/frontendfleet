@@ -1,0 +1,106 @@
+.userFillInstanceChild {
+  height: 48px;
+  width: 51px;
+  position: relative;
+  border-radius: var(--br-11xs);
+  background-color: var(--color-dimgray-300);
+  display: none;
+}
+.userAltFillIcon {
+  height: 54px;
+  width: 54px;
+  position: relative;
+  z-index: 1;
+}
+.userFillInstance {
+  align-self: stretch;
+  border-radius: var(--br-11xs);
+  background-color: var(--color-dimgray-300);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.supplierLabel,
+.user {
+  position: relative;
+  display: inline-block;
+  min-width: 38px;
+  flex-shrink: 0;
+  debug_commit: f6aba90;
+}
+.supplierLabel {
+  margin-top: -4px;
+  min-width: 108px;
+}
+.supplierLabelWrapper {
+  height: 21px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+}
+.userParent {
+  flex-direction: column;
+}
+.frameWrapper,
+.userFillInstanceParent,
+.userParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameWrapper {
+  flex-direction: column;
+  padding: var(--padding-9xs) 0 0;
+}
+.userFillInstanceParent {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-3xs);
+}
+.reports {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  min-width: 89px;
+  white-space: nowrap;
+}
+.reportsContainer,
+.reportsWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-smi) 0 0;
+  font-size: var(--font-size-6xl);
+}
+.reportsWrapper {
+  align-self: stretch;
+  height: 79px;
+  background-color: var(--color-gray-600);
+  box-shadow: 0 4px 35.1px 13px rgba(116, 116, 116, 0.05);
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: row;
+  padding: var(--padding-xs) var(--padding-14xl) var(--padding-smi);
+  box-sizing: border-box;
+  gap: var(--gap-113xl);
+  top: 0;
+  z-index: 99;
+  position: sticky;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-white);
+  font-family: var(--font-nunito);
+}
+@media screen and (max-width: 450px) {
+  .reportsWrapper {
+    gap: 132px 66px;
+  }
+}

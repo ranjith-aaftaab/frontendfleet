@@ -1,0 +1,406 @@
+.matrixSolverChild {
+  height: 38px;
+  width: 418px;
+  position: relative;
+  background-color: var(--color-gray-900);
+  display: none;
+  max-width: 100%;
+}
+.download21 {
+  height: 22px;
+  width: 22px;
+  object-fit: cover;
+  min-height: 22px;
+}
+.download21,
+.findReliancePetrol {
+  position: relative;
+  z-index: 1;
+}
+.functionBuilder {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) 0 0;
+  box-sizing: border-box;
+  min-width: 159px;
+}
+.frameChild,
+.matrixSolver {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.matrixSolver {
+  align-self: stretch;
+  background-color: var(--color-gray-900);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) var(--padding-52xl);
+  gap: var(--gap-4xs);
+}
+.frameChild {
+  width: 358px;
+  height: 156px;
+  position: relative;
+  border-radius: var(--br-sm);
+  border: 1px solid var(--color-silver);
+  display: none;
+}
+.hussain,
+.nagpurChaonniCo3 {
+  margin: 0;
+}
+.nagpurChaonniCo3Container,
+.nagpurMaharastraEast {
+  position: relative;
+  z-index: 1;
+}
+.nagpurMaharastraEast {
+  color: var(--color-gray-800);
+}
+.multiplier {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+  min-width: 153px;
+}
+.chevronRightIcon {
+  width: 34px;
+  height: 34px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.sorter {
+  height: 47px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-smi);
+  box-sizing: border-box;
+}
+.subtractor {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.comparatorChild {
+  height: 44px;
+  width: 201px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-darkolivegreen-100);
+  display: none;
+}
+.viewInMap {
+  position: relative;
+  display: inline-block;
+  min-width: 113px;
+  z-index: 3;
+}
+.comparator,
+.merger {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.comparator {
+  border-radius: var(--br-3xs);
+  background-color: var(--color-darkolivegreen-100);
+  justify-content: flex-start;
+  padding: var(--padding-5xs) var(--padding-24xl) var(--padding-4xs)
+    var(--padding-26xl);
+  white-space: nowrap;
+  z-index: 2;
+}
+.merger {
+  justify-content: flex-end;
+  padding: 0 var(--padding-16xl);
+  font-size: var(--font-size-xl);
+}
+.inputFilter,
+.rectangleParent {
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.rectangleParent {
+  flex: 1;
+  border-radius: var(--br-sm);
+  border: 1px solid var(--color-silver);
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-mid) var(--padding-24xl) var(--padding-base)
+    var(--padding-5xl);
+  gap: var(--gap-sm);
+}
+.inputFilter {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-lg) 0 var(--padding-lgi);
+}
+.nagpur {
+  font-weight: 800;
+}
+.dieselBunksInContainer {
+  position: relative;
+}
+.minimizer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-52xl);
+}
+.frameInner,
+.frameItem {
+  width: 447px;
+  height: 2393px;
+  position: relative;
+  display: none;
+  max-width: 100%;
+}
+.frameInner {
+  height: 97px;
+  width: 358px;
+  border-radius: var(--br-sm);
+  border: 1px solid var(--color-silver);
+  box-sizing: border-box;
+}
+.nagpurCo5Hiwarkar {
+  position: relative;
+  white-space: pre-wrap;
+  z-index: 1;
+}
+.nagpurMaharastraEast1 {
+  position: relative;
+  color: var(--color-gray-800);
+  z-index: 1;
+}
+.absValCalculator {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-lgi);
+}
+.chevronRightIcon1 {
+  width: 34px;
+  height: 34px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.expCalculator {
+  height: 44px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-3xs);
+  box-sizing: border-box;
+}
+.rectangleContainer,
+.rectangleDiv {
+  border-radius: var(--br-sm);
+  border: 1px solid var(--color-silver);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.rectangleContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-xl) var(--padding-6xl) var(--padding-lg);
+  gap: var(--gap-38xl);
+  z-index: 1;
+}
+.rectangleDiv {
+  height: 97px;
+  width: 358px;
+  position: relative;
+  display: none;
+}
+.dighori,
+.nagpurMaharashtraEast {
+  position: relative;
+  display: inline-block;
+}
+.dighori {
+  min-width: 52px;
+  z-index: 1;
+}
+.nagpurMaharashtraEast {
+  align-self: stretch;
+  height: 20px;
+  color: var(--color-gray-800);
+}
+.dighoriParent {
+  width: 186px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-lgi);
+}
+.chevronRightIcon2 {
+  width: 34px;
+  height: 34px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.chevronRightWrapper {
+  height: 44px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-3xs);
+  box-sizing: border-box;
+}
+.groupDiv,
+.rectangleGroup {
+  display: flex;
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+}
+.groupDiv {
+  align-self: stretch;
+  border-radius: var(--br-sm);
+  border: 1px solid var(--color-silver);
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: var(--padding-xl) var(--padding-25xl) var(--padding-lg)
+    var(--padding-6xl);
+  max-width: 100%;
+  z-index: 1;
+}
+.rectangleGroup {
+  margin-left: -26px;
+  width: 447px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-mini) var(--padding-23xl);
+  flex-shrink: 0;
+  debug_commit: f6aba90;
+}
+.bunks,
+.maximizer {
+  align-self: stretch;
+  align-items: flex-start;
+}
+.bunks {
+  height: 202px;
+  overflow-y: auto;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: var(--padding-mini) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: var(--font-size-mini);
+}
+.maximizer {
+  flex-direction: column;
+  gap: var(--gap-9xs);
+  font-size: var(--font-size-xl);
+}
+.branchCondition,
+.dataAggregator,
+.maximizer,
+.nestedIfHandler {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.branchCondition {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--gap-4xl);
+}
+.dataAggregator,
+.nestedIfHandler {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-xs) 0 var(--padding-2xs);
+  box-sizing: border-box;
+}
+.nestedIfHandler {
+  border-radius: var(--br-3xs);
+  background-color: var(--color-gray-600);
+  overflow-y: auto;
+  flex-direction: column;
+  padding: 0 0 var(--padding-base);
+  gap: var(--gap-10xl);
+  text-align: left;
+  font-size: var(--font-size-mini);
+  color: var(--color-white);
+  font-family: var(--font-nunito);
+}
+@media screen and (max-width: 450px) {
+  .matrixSolver {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .matrixSolver,
+  .subtractor {
+    flex-wrap: wrap;
+  }
+  .rectangleParent {
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .dieselBunksInContainer {
+    font-size: var(--font-size-base);
+  }
+  .minimizer {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .rectangleContainer {
+    flex-wrap: wrap;
+    gap: 57px 28px;
+  }
+  .groupDiv,
+  .rectangleGroup {
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .groupDiv {
+    flex-wrap: wrap;
+  }
+  .rectangleGroup {
+    padding-left: var(--padding-xl);
+  }
+  .bunks {
+    height: auto;
+  }
+}

@@ -1,0 +1,112 @@
+.frameChild,
+.searchTripsContainerChild {
+  position: relative;
+  border-radius: var(--br-8xs) var(--br-8xs) 0 0;
+  box-sizing: border-box;
+  display: none;
+}
+.searchTripsContainerChild {
+  align-self: stretch;
+  height: 132px;
+  background-color: var(--color-black);
+  border: 2px solid var(--color-gray-300);
+}
+.frameChild {
+  height: 66px;
+  width: 1046px;
+  background-color: var(--color-gray-500);
+  border-top: 2px solid var(--color-gray-400);
+  border-left: 2px solid var(--color-gray-400);
+  max-width: 100%;
+}
+.lrNumber,
+.startDate {
+  position: relative;
+  display: inline-block;
+  min-width: 84px;
+  z-index: 3;
+}
+.lrNumber {
+  min-width: 92px;
+}
+.partyBalance,
+.partyName,
+.route,
+.tripStatus,
+.truckNo {
+  position: relative;
+  display: inline-block;
+  min-width: 96px;
+  z-index: 3;
+}
+.partyBalance,
+.route,
+.tripStatus,
+.truckNo {
+  min-width: 72px;
+}
+.partyBalance,
+.route,
+.tripStatus {
+  min-width: 48px;
+}
+.partyBalance,
+.tripStatus {
+  min-width: 88px;
+}
+.partyBalance {
+  min-width: 113px;
+}
+.rectangleParent {
+  align-self: stretch;
+  border-radius: var(--br-8xs) var(--br-8xs) 0 0;
+  background-color: var(--color-gray-500);
+  border-top: 2px solid var(--color-gray-400);
+  border-left: 2px solid var(--color-gray-400);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: var(--padding-xl) var(--padding-17xl) var(--padding-2xl)
+    var(--padding-8xl);
+  max-width: 100%;
+  gap: var(--gap-xl);
+  z-index: 2;
+}
+.sorryNoParties {
+  position: relative;
+  z-index: 2;
+}
+.sorryNoPartiesFoundWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  color: var(--color-darkgray);
+}
+.searchTripsContainer {
+  flex: 1;
+  border-radius: var(--br-8xs) var(--br-8xs) 0 0;
+  background-color: var(--color-black);
+  border: 2px solid var(--color-gray-300);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-5xl);
+  gap: var(--gap-mid);
+  max-width: 100%;
+  z-index: 1;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-white);
+  font-family: var(--font-nunito);
+}
+@media screen and (max-width: 975px) {
+  .rectangleParent {
+    flex-wrap: wrap;
+  }
+}

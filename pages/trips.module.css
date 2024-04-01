@@ -1,0 +1,293 @@
+.frameChild {
+  height: 53px;
+  width: 432px;
+  position: relative;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-black);
+  border: 2px solid var(--color-gray-300);
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+.searchLightIcon {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  z-index: 1;
+}
+.searchLightWrapper {
+  height: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) 0 0;
+  box-sizing: border-box;
+}
+.searchTrips {
+  position: relative;
+  display: inline-block;
+  min-width: 110px;
+  z-index: 1;
+}
+.rectangleParent {
+  width: 432px;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-black);
+  border: 2px solid var(--color-gray-300);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-smi) var(--padding-3xl);
+  gap: var(--gap-mini);
+  max-width: 100%;
+}
+.date {
+  position: relative;
+  display: inline-block;
+  min-width: 43px;
+}
+.frameItem {
+  height: 53px;
+  width: 205px;
+  position: relative;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-black);
+  border: 2px solid var(--color-gray-300);
+  box-sizing: border-box;
+  display: none;
+}
+.allMonths,
+.playIcon {
+  position: relative;
+  z-index: 1;
+}
+.allMonths {
+  display: inline-block;
+  min-width: 100px;
+}
+.playIcon {
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.playWrapper {
+  height: 22px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-7xs) 0 0;
+  box-sizing: border-box;
+}
+.dateParent,
+.playWrapper,
+.rectangleGroup {
+  display: flex;
+  align-items: flex-start;
+}
+.rectangleGroup {
+  align-self: stretch;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-black);
+  border: 2px solid var(--color-gray-300);
+  flex-direction: row;
+  justify-content: space-between;
+  padding: var(--padding-smi) var(--padding-mid) var(--padding-smi)
+    var(--padding-mini);
+  gap: var(--gap-xl);
+  font-size: var(--font-size-xl);
+  color: var(--color-lightgray);
+}
+.dateParent {
+  width: 205px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-11xs);
+}
+.tripStatus {
+  position: relative;
+  display: inline-block;
+  min-width: 73px;
+}
+.frameInner {
+  height: 53px;
+  width: 279px;
+  position: relative;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-black);
+  border: 2px solid var(--color-gray-300);
+  box-sizing: border-box;
+  display: none;
+}
+.activeTripsnotSettled,
+.playIcon1 {
+  position: relative;
+  z-index: 1;
+}
+.playIcon1 {
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.playContainer {
+  height: 23px;
+  flex-direction: column;
+  padding: var(--padding-6xs) 0 0;
+  box-sizing: border-box;
+}
+.playContainer,
+.rectangleContainer,
+.tripStatusParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.rectangleContainer {
+  align-self: stretch;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-black);
+  border: 2px solid var(--color-gray-300);
+  flex-direction: row;
+  padding: var(--padding-xs) var(--padding-2xs) var(--padding-sm)
+    var(--padding-mini);
+  gap: var(--gap-xs);
+  font-size: var(--font-size-xl);
+  color: var(--color-lightgray);
+}
+.tripStatusParent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-11xs);
+  min-width: 181px;
+}
+.frameContainer,
+.frameDiv {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.frameDiv {
+  width: 515px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-12xl);
+  font-size: var(--font-size-mini);
+  color: var(--color-gray-1000);
+}
+.frameContainer {
+  align-self: stretch;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.rectangleDiv,
+.rectangleParent1 {
+  border-radius: var(--br-8xs);
+  background-color: var(--color-gray-700);
+  border: 2px solid var(--color-gray-300);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.rectangleDiv {
+  height: 755px;
+  width: 1048px;
+  position: relative;
+  display: none;
+}
+.rectangleParent1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-604xl);
+}
+.frameGroup,
+.frameWrapper {
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.frameGroup {
+  align-self: stretch;
+  border-radius: var(--br-6xs);
+  background-color: var(--color-gray-600);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-base) var(--padding-4xl) var(--padding-12xl);
+  gap: var(--gap-mid);
+  max-width: 100%;
+}
+.frameWrapper {
+  flex: 1;
+  padding: var(--padding-7xl) 0 0;
+  max-width: calc(100% - 305px);
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-gray-200);
+  font-family: var(--font-nunito);
+}
+.frameParent,
+.frameWrapper,
+.trips {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent {
+  width: 1427px;
+  flex-direction: row;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-7xl);
+  max-width: 100%;
+}
+.trips {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-gray-700);
+  overflow: hidden;
+  flex-direction: column;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1025px) {
+  .frameContainer {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 975px) {
+  .frameGroup,
+  .rectangleParent1 {
+    padding-bottom: var(--padding-386xl);
+    box-sizing: border-box;
+  }
+  .frameGroup {
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-xl);
+  }
+  .frameWrapper {
+    max-width: 100%;
+  }
+  .frameParent {
+    padding-left: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 725px) {
+  .frameDiv {
+    flex-wrap: wrap;
+    gap: 31px 15px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .activeTripsnotSettled,
+  .allMonths,
+  .searchTrips {
+    font-size: var(--font-size-base);
+  }
+}

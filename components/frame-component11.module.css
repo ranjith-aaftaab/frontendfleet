@@ -1,0 +1,151 @@
+.frameChild {
+  height: 53px;
+  width: 374px;
+  position: relative;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-gray-700);
+  border: 2px solid var(--color-gray-300);
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+.searchLightIcon {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  z-index: 1;
+}
+.searchLightWrapper {
+  height: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) 0 0;
+  box-sizing: border-box;
+}
+.searchForA {
+  position: relative;
+  z-index: 1;
+}
+.frameWrapper,
+.rectangleParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.rectangleParent {
+  flex: 1;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-gray-700);
+  border: 2px solid var(--color-gray-300);
+  padding: var(--padding-smi) var(--padding-3xl);
+  gap: var(--gap-mini);
+}
+.frameWrapper {
+  width: 400px;
+  padding: 0 var(--padding-smi);
+}
+.figmapIcon {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.frameItem {
+  width: 36px;
+  height: 70px;
+  position: relative;
+  border-radius: var(--br-4xs);
+  background-color: var(--color-gainsboro-100);
+  box-shadow: 0 0 10.5px #000;
+  display: none;
+}
+.shapeCollector {
+  position: relative;
+  font-weight: 800;
+  display: inline-block;
+  min-width: 12px;
+  z-index: 1;
+}
+.dataProcessor {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xs);
+}
+.div,
+.frameInner {
+  position: relative;
+  z-index: 1;
+}
+.frameInner {
+  width: 36.5px;
+  height: 0.5px;
+  border-top: 0.5px solid var(--color-gray-800);
+  box-sizing: border-box;
+}
+.div {
+  font-weight: 800;
+  display: inline-block;
+  min-width: 9px;
+}
+.dataProcessor1 {
+  flex-direction: row;
+  padding: 0 var(--padding-smi) 0 var(--padding-sm);
+}
+.dataProcessor1,
+.figmapParent,
+.frameParent,
+.rectangleGroup {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.rectangleGroup {
+  border-radius: var(--br-4xs);
+  background-color: var(--color-gainsboro-100);
+  box-shadow: 0 0 10.5px #000;
+  flex-direction: column;
+  padding: var(--padding-8xs) 0;
+  gap: var(--gap-10xs-8);
+  z-index: 1;
+}
+.figmapParent,
+.frameParent {
+  align-self: stretch;
+}
+.figmapParent {
+  flex-direction: row;
+  padding: var(--padding-xs) var(--padding-smi) var(--padding-161xl);
+  position: relative;
+  color: var(--color-black);
+}
+.frameParent {
+  flex-direction: column;
+  gap: var(--gap-xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-gray-200);
+  font-family: var(--font-nunito);
+}
+@media screen and (max-width: 450px) {
+  .div,
+  .searchForA,
+  .shapeCollector {
+    font-size: var(--font-size-base);
+  }
+}

@@ -1,0 +1,71 @@
+.frameChild {
+  height: 97px;
+  width: 358px;
+  position: relative;
+  border-radius: var(--br-sm);
+  border: 1px solid var(--color-silver);
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+  z-index: 1;
+}
+.yavatmal1Pobaru {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  z-index: 1;
+}
+.chevronRightIcon {
+  height: 34px;
+  width: 34px;
+  position: absolute;
+  margin: 0 !important;
+  right: -30px;
+  bottom: -13px;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.yavatmal1PobaruMarketingnagParent {
+  height: 40px;
+  width: 259px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+}
+.yavatmalMaharashtraEast {
+  align-self: stretch;
+  height: 20px;
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+}
+.rectangleParent,
+.yavatmalMaharashtraEastWrapper {
+  box-sizing: border-box;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.yavatmalMaharashtraEastWrapper {
+  width: 198px;
+  flex-direction: column;
+  padding: var(--padding-28xl) 0 0;
+  margin-left: -259px;
+  color: var(--color-gray-800);
+}
+.rectangleParent {
+  align-self: stretch;
+  border-radius: var(--br-sm);
+  border: 1px solid var(--color-silver);
+  flex-direction: row;
+  padding: var(--padding-base) var(--padding-6xl) var(--padding-sm);
+  max-width: 100%;
+  z-index: 1;
+  text-align: left;
+  font-size: var(--font-size-mini);
+  color: var(--color-white);
+  font-family: var(--font-nunito);
+}

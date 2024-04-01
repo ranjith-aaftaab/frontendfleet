@@ -1,0 +1,476 @@
+.paperLight {
+  display: none;
+}
+.deskLightIcon,
+.paperLight {
+  height: 24px;
+  width: 24px;
+  position: relative;
+}
+.parties {
+  height: 25px;
+  position: relative;
+  display: inline-block;
+  min-width: 57px;
+  cursor: pointer;
+}
+.expensesArea,
+.expensesAreaWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.expensesArea {
+  align-self: stretch;
+  gap: var(--gap-6xs);
+}
+.expensesAreaWrapper {
+  height: 25px;
+  padding: 0 var(--padding-4xs);
+  box-sizing: border-box;
+}
+.mapPinIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.trips {
+  position: relative;
+  display: inline-block;
+  min-width: 40px;
+  cursor: pointer;
+}
+.mapPinParent,
+.tripsWrapper,
+.trucksCountInner {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.tripsWrapper {
+  flex-direction: column;
+  padding: var(--padding-10xs) 0 0;
+}
+.mapPinParent,
+.trucksCountInner {
+  flex-direction: row;
+}
+.mapPinParent {
+  align-self: stretch;
+  gap: var(--gap-6xs);
+}
+.trucksCountInner {
+  height: 28px;
+  padding: 0 var(--padding-4xs);
+  box-sizing: border-box;
+}
+.userCicrleLightIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+}
+.suppliers {
+  position: relative;
+  display: inline-block;
+  min-width: 77px;
+  cursor: pointer;
+}
+.exportPdfButton,
+.invoicesList,
+.orderlightInstance {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.exportPdfButton {
+  flex-direction: column;
+  padding: var(--padding-11xs) 0 0;
+}
+.invoicesList,
+.orderlightInstance {
+  flex-direction: row;
+}
+.orderlightInstance {
+  align-self: stretch;
+  gap: var(--gap-6xs);
+}
+.invoicesList {
+  height: 27px;
+  padding: 0 var(--padding-4xs);
+  box-sizing: border-box;
+}
+.steeringWheelIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.drivers {
+  position: relative;
+  display: inline-block;
+  min-width: 58px;
+  cursor: pointer;
+}
+.driversWrapper,
+.steeringWheelParent,
+.trucksCountChild {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.driversWrapper {
+  flex-direction: column;
+  padding: var(--padding-10xs) 0 0;
+}
+.steeringWheelParent,
+.trucksCountChild {
+  flex-direction: row;
+}
+.steeringWheelParent {
+  align-self: stretch;
+  gap: var(--gap-6xs);
+}
+.trucksCountChild {
+  height: 28px;
+  padding: 0 var(--padding-4xs);
+  box-sizing: border-box;
+}
+.truckIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.trucks {
+  position: relative;
+  display: inline-block;
+  min-width: 52px;
+  cursor: pointer;
+}
+.previewArea,
+.safeSecureMessage {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.previewArea {
+  align-self: stretch;
+  gap: var(--gap-6xs);
+}
+.safeSecureMessage {
+  height: 37px;
+  padding: 0 var(--padding-4xs) var(--padding-xs);
+  box-sizing: border-box;
+}
+.icons8Money301 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  object-fit: cover;
+}
+.expenses {
+  position: relative;
+  display: inline-block;
+  min-width: 78px;
+  cursor: pointer;
+}
+.expensesWrapper,
+.frameWrapper,
+.icons8Money301Parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.expensesWrapper {
+  flex-direction: column;
+  padding: var(--padding-11xs) 0 0;
+}
+.frameWrapper,
+.icons8Money301Parent {
+  flex-direction: row;
+}
+.icons8Money301Parent {
+  align-self: stretch;
+  gap: var(--gap-6xs);
+}
+.frameWrapper {
+  height: 27px;
+  padding: 0 var(--padding-4xs);
+  box-sizing: border-box;
+}
+.invoicesTitleChild {
+  height: 49px;
+  width: 256px;
+  position: relative;
+  border-radius: var(--br-9xs);
+  background-color: var(--color-darkolivegreen-100);
+  box-shadow: 0 2px 22.7px 3px rgba(255, 255, 255, 0.05);
+  border: 1px solid var(--color-darkslategray-100);
+  box-sizing: border-box;
+  display: none;
+}
+.frameChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
+  z-index: 1;
+}
+.frameItem {
+  top: 4px;
+  width: 4px;
+}
+.frameInner,
+.frameItem,
+.vectorIcon {
+  position: absolute;
+  left: 4px;
+  border-radius: var(--br-11xs);
+  height: 1px;
+  z-index: 2;
+}
+.frameInner {
+  top: 8px;
+  width: 1px;
+  object-fit: contain;
+}
+.vectorIcon {
+  top: 12px;
+  width: 3px;
+}
+.vectorParent {
+  width: 18px;
+  height: 18px;
+  position: relative;
+}
+.invoicesTitleInner {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) 0 0;
+}
+.invoices {
+  position: relative;
+  display: inline-block;
+  min-width: 65px;
+  z-index: 1;
+}
+.frameParent,
+.invoicesTitle {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.invoicesTitle {
+  border-radius: var(--br-9xs);
+  background-color: var(--color-darkolivegreen-100);
+  box-shadow: 0 2px 22.7px 3px rgba(255, 255, 255, 0.05);
+  border: 1px solid var(--color-darkslategray-100);
+  flex-direction: row;
+  padding: var(--padding-xs);
+  gap: var(--gap-3xs);
+}
+.frameParent {
+  flex-direction: column;
+  gap: var(--gap-sm);
+}
+.orderLightIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+}
+.reports {
+  position: relative;
+  display: inline-block;
+  min-width: 64px;
+  cursor: pointer;
+}
+.reportsWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+}
+.invoicesArea {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-6xs);
+}
+.invoicesArea,
+.invoicesAreaWrapper,
+.marteXtransportName {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.invoicesAreaWrapper {
+  height: 27px;
+  flex-direction: row;
+  padding: 0 var(--padding-4xs);
+  box-sizing: border-box;
+}
+.marteXtransportName {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-mini);
+}
+.userBoxLightIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+}
+.profile {
+  position: relative;
+  display: inline-block;
+  min-width: 53px;
+  cursor: pointer;
+}
+.userBoxLightParent {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-6xs);
+}
+.frameDiv,
+.trucksCount,
+.userBoxLightParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameDiv {
+  height: 25px;
+  flex-direction: row;
+  padding: 0 var(--padding-4xs);
+  box-sizing: border-box;
+}
+.trucksCount {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-8xl-4);
+}
+.untitledDesign1 {
+  width: 21px;
+  height: 27px;
+  position: relative;
+  object-fit: cover;
+}
+.marteXLabel {
+  height: 29px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+  box-sizing: border-box;
+}
+.martexTransport {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  z-index: 1;
+}
+.marteXLabelParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.untitledDesign2 {
+  width: 16px;
+  height: 17px;
+  position: relative;
+  object-fit: cover;
+}
+.untitledDesign2Wrapper {
+  height: 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) 0 0;
+  box-sizing: border-box;
+}
+.safeSecure {
+  position: relative;
+}
+.frameGroup,
+.invoiceHeaderInner {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.frameGroup {
+  justify-content: flex-start;
+  gap: var(--gap-7xs);
+}
+.invoiceHeaderInner {
+  justify-content: flex-end;
+  padding: 0 var(--padding-12xl) 0 var(--padding-17xl);
+  font-size: var(--font-size-mini);
+}
+.exportButton,
+.invoiceHeader,
+.truckImage {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.exportButton,
+.truckImage {
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-7xs);
+  font-size: var(--font-size-6xl);
+}
+.truckImage {
+  width: 279px;
+  background-color: var(--color-gray-600);
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: column;
+  padding: var(--padding-44xl) var(--padding-2xs) var(--padding-22xl);
+  box-sizing: border-box;
+  gap: var(--gap-314xl);
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-white);
+  font-family: var(--font-nunito);
+}
+@media screen and (max-width: 1025px) {
+  .truckImage {
+    display: none;
+    padding-top: var(--padding-22xl);
+    padding-bottom: var(--padding-8xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .truckImage {
+    padding-top: var(--padding-8xl);
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .martexTransport {
+    font-size: var(--font-size-xl);
+  }
+  .truckImage {
+    gap: 166px 333px;
+  }
+}

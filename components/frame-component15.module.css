@@ -1,0 +1,470 @@
+.paperLight {
+  display: none;
+}
+.deskLightIcon,
+.paperLight {
+  height: 24px;
+  width: 24px;
+  position: relative;
+}
+.parties {
+  position: relative;
+  display: inline-block;
+  min-width: 57px;
+  cursor: pointer;
+}
+.deskLightParent,
+.frameWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.deskLightParent {
+  align-self: stretch;
+  gap: var(--gap-6xs);
+}
+.frameWrapper {
+  height: 25px;
+  padding: 0 var(--padding-4xs);
+  box-sizing: border-box;
+}
+.mapPinIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.trips {
+  position: relative;
+  display: inline-block;
+  min-width: 40px;
+  cursor: pointer;
+}
+.frameContainer,
+.mapPinParent,
+.tripsWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.tripsWrapper {
+  flex-direction: column;
+  padding: var(--padding-10xs) 0 0;
+}
+.frameContainer,
+.mapPinParent {
+  flex-direction: row;
+}
+.mapPinParent {
+  align-self: stretch;
+  gap: var(--gap-6xs);
+}
+.frameContainer {
+  height: 28px;
+  padding: 0 var(--padding-4xs);
+  box-sizing: border-box;
+}
+.userCicrleLightIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+}
+.suppliers {
+  position: relative;
+  display: inline-block;
+  min-width: 77px;
+  cursor: pointer;
+}
+.frameDiv,
+.orderlightInstance,
+.userCicrleLightParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.orderlightInstance {
+  flex-direction: column;
+  padding: var(--padding-11xs) 0 0;
+}
+.frameDiv,
+.userCicrleLightParent {
+  flex-direction: row;
+}
+.userCicrleLightParent {
+  align-self: stretch;
+  gap: var(--gap-6xs);
+}
+.frameDiv {
+  height: 27px;
+  padding: 0 var(--padding-4xs);
+  box-sizing: border-box;
+}
+.steeringWheelIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.drivers {
+  position: relative;
+  display: inline-block;
+  min-width: 58px;
+  cursor: pointer;
+}
+.driversWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) 0 0;
+}
+.steeringWheelParent,
+.userBoxLightInstanceInner {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.steeringWheelParent {
+  align-self: stretch;
+  gap: var(--gap-6xs);
+}
+.userBoxLightInstanceInner {
+  height: 28px;
+  padding: 0 var(--padding-4xs);
+  box-sizing: border-box;
+}
+.truckIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.trucks {
+  position: relative;
+  display: inline-block;
+  min-width: 52px;
+  cursor: pointer;
+}
+.truckParent,
+.userBoxLightInstanceChild {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.truckParent {
+  align-self: stretch;
+  gap: var(--gap-6xs);
+}
+.userBoxLightInstanceChild {
+  height: 25px;
+  padding: 0 var(--padding-4xs);
+  box-sizing: border-box;
+}
+.icons8Money301 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  object-fit: cover;
+}
+.expenses {
+  position: relative;
+  display: inline-block;
+  min-width: 78px;
+  cursor: pointer;
+}
+.expensesWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+}
+.icons8Money301Parent,
+.userBoxLightInstanceInner1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.icons8Money301Parent {
+  align-self: stretch;
+  gap: var(--gap-6xs);
+}
+.userBoxLightInstanceInner1 {
+  height: 27px;
+  padding: 0 var(--padding-4xs);
+  box-sizing: border-box;
+}
+.addUserButtonChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
+}
+.addUserButtonItem {
+  top: 4px;
+  width: 4px;
+}
+.addUserButtonInner,
+.addUserButtonItem,
+.vectorIcon {
+  position: absolute;
+  left: 4px;
+  border-radius: var(--br-11xs);
+  height: 1px;
+  z-index: 1;
+}
+.addUserButtonInner {
+  top: 8px;
+  width: 1px;
+  object-fit: contain;
+}
+.vectorIcon {
+  top: 12px;
+  width: 3px;
+}
+.addUserButton {
+  width: 18px;
+  height: 18px;
+  position: relative;
+}
+.addUserButtonWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) 0 0;
+}
+.invoices {
+  position: relative;
+  display: inline-block;
+  min-width: 65px;
+  cursor: pointer;
+}
+.frameGroup,
+.invoiceContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameGroup {
+  gap: var(--gap-3xs);
+}
+.invoiceContainer {
+  padding: 0 var(--padding-xs);
+}
+.orderLightIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+}
+.reports {
+  position: relative;
+  display: inline-block;
+  min-width: 64px;
+  cursor: pointer;
+}
+.orderLightParent,
+.reportsWrapper,
+.userLightInstance {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.reportsWrapper {
+  flex-direction: column;
+  padding: var(--padding-11xs) 0 0;
+}
+.orderLightParent,
+.userLightInstance {
+  flex-direction: row;
+}
+.orderLightParent {
+  align-self: stretch;
+  gap: var(--gap-6xs);
+}
+.userLightInstance {
+  height: 27px;
+  padding: 0 var(--padding-4xs);
+  box-sizing: border-box;
+}
+.frameChild {
+  height: 49px;
+  width: 256px;
+  position: relative;
+  border-radius: var(--br-9xs);
+  background-color: var(--color-darkolivegreen-100);
+  box-shadow: 0 2px 22.7px 3px rgba(255, 255, 255, 0.05);
+  border: 1px solid var(--color-darkslategray-100);
+  box-sizing: border-box;
+  display: none;
+}
+.userBoxLightIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  z-index: 1;
+}
+.profile {
+  position: relative;
+  display: inline-block;
+  min-width: 53px;
+  z-index: 1;
+}
+.frameParent,
+.rectangleParent,
+.userBoxLightInstance,
+.userLightInstanceParent {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.rectangleParent {
+  height: 49px;
+  border-radius: var(--br-9xs);
+  background-color: var(--color-darkolivegreen-100);
+  box-shadow: 0 2px 22.7px 3px rgba(255, 255, 255, 0.05);
+  border: 1px solid var(--color-darkslategray-100);
+  box-sizing: border-box;
+  flex-direction: row;
+  padding: var(--padding-xs) var(--padding-4xs);
+  gap: var(--gap-6xs);
+}
+.frameParent,
+.userBoxLightInstance,
+.userLightInstanceParent {
+  flex-direction: column;
+  gap: var(--gap-mid);
+}
+.frameParent,
+.userBoxLightInstance {
+  gap: var(--gap-8xl-3);
+}
+.frameParent {
+  gap: var(--gap-7xl-3);
+}
+.untitledDesign1 {
+  width: 21px;
+  height: 27px;
+  position: relative;
+  object-fit: cover;
+}
+.untitledDesign1Wrapper {
+  height: 29px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+  box-sizing: border-box;
+}
+.martexTransport {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  z-index: 1;
+}
+.transportIcon {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.untitledDesign2 {
+  width: 16px;
+  height: 17px;
+  position: relative;
+  object-fit: cover;
+}
+.untitledDesign2Wrapper {
+  height: 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) 0 0;
+  box-sizing: border-box;
+}
+.safeSecure {
+  position: relative;
+}
+.frameParent1,
+.frameWrapper2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.frameParent1 {
+  justify-content: flex-start;
+  gap: var(--gap-7xs);
+}
+.frameWrapper2 {
+  justify-content: flex-end;
+  padding: 0 var(--padding-12xl) 0 var(--padding-17xl);
+  font-size: var(--font-size-mini);
+}
+.frameWrapper1,
+.paperLightParent,
+.transportIconParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.frameWrapper1,
+.paperLightParent {
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-7xs);
+  font-size: var(--font-size-6xl);
+}
+.paperLightParent {
+  width: 279px;
+  background-color: var(--color-gray-600);
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: column;
+  padding: var(--padding-44xl) var(--padding-2xs) var(--padding-22xl);
+  box-sizing: border-box;
+  gap: var(--gap-302xl);
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-white);
+  font-family: var(--font-nunito);
+}
+@media screen and (max-width: 950px) {
+  .paperLightParent {
+    display: none;
+    padding-top: var(--padding-22xl);
+    padding-bottom: var(--padding-8xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 700px) {
+  .paperLightParent {
+    padding-top: var(--padding-8xl);
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .martexTransport {
+    font-size: var(--font-size-xl);
+  }
+  .paperLightParent {
+    gap: 160px 321px;
+  }
+}

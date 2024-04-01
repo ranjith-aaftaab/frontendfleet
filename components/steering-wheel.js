@@ -6,8 +6,8 @@ const SteeringWheel = () => {
   const router = useRouter();
 
   const onTripsTextClick = useCallback(() => {
-    // Please sync "Trips" to the project
-  }, []);
+    router.push("/trips");
+  }, [router]);
 
   const onSuppliersTextClick = useCallback(() => {
     router.push("/suppliers");
@@ -26,16 +26,16 @@ const SteeringWheel = () => {
   }, [router]);
 
   const onInvoicesTextClick = useCallback(() => {
-    // Please sync "Invoices" to the project
-  }, []);
+    router.push("/invoices");
+  }, [router]);
 
   const onReportsTextClick = useCallback(() => {
-    // Please sync "Reports" to the project
-  }, []);
+    router.push("/reports");
+  }, [router]);
 
   const onProfileTextClick = useCallback(() => {
-    // Please sync "Profile" to the project
-  }, []);
+    router.push("/profile");
+  }, [router]);
 
   return (
     <div className={styles.steeringWheel}>

@@ -1,0 +1,42 @@
+.frameWrapper,
+.indexUpdater {
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.frameWrapper {
+  height: 945px;
+  width: 284px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-8xs) 0 0;
+}
+.indexUpdater {
+  width: 418px;
+  padding: var(--padding-21xl) 0 0;
+  max-width: 100%;
+}
+.dieselCard,
+.frameParent,
+.indexUpdater {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent {
+  width: 1428px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-9xl);
+  max-width: 100%;
+}
+.dieselCard {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-gray-700);
+  overflow: hidden;
+  flex-direction: column;
+  letter-spacing: normal;
+}

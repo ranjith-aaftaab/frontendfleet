@@ -1,0 +1,252 @@
+.icon {
+  height: 56px;
+  width: 72px;
+  object-fit: cover;
+}
+.icon,
+.profitLoss {
+  position: relative;
+}
+.parent,
+.profitLossReportWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-sm) 0 0;
+}
+.parent {
+  border-radius: var(--br-3xs);
+  background-color: var(--color-darkslategray-200);
+  overflow: hidden;
+  flex-direction: row;
+  padding: var(--padding-27xl) var(--padding-xl);
+  gap: var(--gap-6xl);
+}
+.icon1 {
+  height: 53px;
+  width: 82px;
+  object-fit: cover;
+}
+.icon1,
+.truckRevenueReport {
+  position: relative;
+}
+.group,
+.truckRevenueReportWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-mid) 0 0;
+}
+.group {
+  height: 148px;
+  width: 320px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-darkslategray-200);
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: row;
+  padding: var(--padding-28xl) var(--padding-2xs) var(--padding-29xl);
+  box-sizing: border-box;
+  gap: var(--gap-2xs);
+}
+.icon2 {
+  height: 55px;
+  width: 58px;
+  object-fit: cover;
+}
+.icon2,
+.partyRevenueReport {
+  position: relative;
+}
+.container,
+.partyRevenueReportWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-lgi) 0 0;
+}
+.container {
+  height: 148px;
+  width: 320px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-darkslategray-200);
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: row;
+  padding: var(--padding-27xl) var(--padding-base) var(--padding-28xl);
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+}
+.icon3 {
+  height: 64px;
+  width: 57px;
+  object-fit: cover;
+}
+.icon3,
+.supplierBalanceReport {
+  position: relative;
+}
+.frameDiv,
+.supplierBalanceReportWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-lg) 0 0;
+}
+.frameDiv {
+  border-radius: var(--br-3xs);
+  background-color: var(--color-darkslategray-200);
+  overflow: hidden;
+  flex-direction: row;
+  padding: var(--padding-23xl) var(--padding-lgi);
+  gap: var(--gap-8xs);
+}
+.icon4 {
+  height: 69px;
+  width: 63px;
+  object-fit: cover;
+}
+.icon4,
+.partyBalanceReport {
+  position: relative;
+}
+.parent1,
+.partyBalanceReportWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-2xl) 0 0;
+}
+.parent1 {
+  height: 148px;
+  width: 320px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-darkslategray-200);
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: row;
+  padding: var(--padding-20xl) var(--padding-5xs) var(--padding-21xl);
+  box-sizing: border-box;
+  gap: var(--gap-sm);
+}
+.icon5 {
+  height: 49px;
+  width: 48px;
+  object-fit: cover;
+}
+.icon5,
+.transactionReport {
+  position: relative;
+}
+.frameParent,
+.parent2,
+.transactionReportWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.transactionReportWrapper {
+  flex-direction: column;
+  padding: var(--padding-2xs) 0 0;
+}
+.frameParent,
+.parent2 {
+  border-radius: var(--br-3xs);
+  overflow: hidden;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.parent2 {
+  height: 148px;
+  width: 320px;
+  background-color: var(--color-darkslategray-200);
+  flex-shrink: 0;
+  padding: var(--padding-30xl) var(--padding-14xl) var(--padding-31xl);
+  gap: var(--gap-3xl);
+}
+.frameParent {
+  align-self: stretch;
+  background-color: var(--color-gray-600);
+  flex-wrap: wrap;
+  padding: 96px var(--padding-16xl) 389px var(--padding-15xl);
+  gap: 84px 31px;
+  min-height: 865px;
+}
+.lightInstanceInner {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-21xl) 0 0;
+  box-sizing: border-box;
+  max-width: calc(100% - 312px);
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+  font-family: var(--font-nunito);
+}
+.lightInstance,
+.lightInstanceInner,
+.reports {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.lightInstance {
+  width: 1427px;
+  flex-direction: row;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-14xl);
+  max-width: 100%;
+}
+.reports {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-gray-700);
+  overflow: hidden;
+  flex-direction: column;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 950px) {
+  .lightInstanceInner {
+    max-width: 100%;
+  }
+  .lightInstance {
+    gap: 33px 16px;
+    padding-left: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 700px) {
+  .frameParent {
+    gap: 84px 15px;
+    padding-top: var(--padding-43xl);
+    padding-bottom: 253px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .profitLoss {
+    font-size: var(--font-size-base);
+  }
+  .parent {
+    flex-wrap: wrap;
+  }
+  .partyRevenueReport,
+  .supplierBalanceReport,
+  .truckRevenueReport {
+    font-size: var(--font-size-base);
+  }
+  .frameDiv {
+    flex-wrap: wrap;
+  }
+  .partyBalanceReport,
+  .transactionReport {
+    font-size: var(--font-size-base);
+  }
+}

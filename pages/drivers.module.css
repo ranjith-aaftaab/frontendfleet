@@ -168,7 +168,8 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: space-between;
-  padding: var(--padding-4xl) 28px var(--padding-lg) var(--padding-22xl);
+  padding: var(--padding-4xl) var(--padding-9xl) var(--padding-lg)
+    var(--padding-22xl);
   gap: var(--gap-xl);
   z-index: 2;
 }
