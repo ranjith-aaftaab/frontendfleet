@@ -1,0 +1,156 @@
+.frameChild {
+  height: 60px;
+  width: 393px;
+  position: relative;
+  background-color: var(--color-gray-500);
+  display: none;
+  max-width: 100%;
+}
+.chooseDriver,
+.x {
+  position: relative;
+  z-index: 1;
+}
+.x {
+  margin: 0;
+  height: 30px;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  min-width: 19px;
+  cursor: pointer;
+}
+.rectangleParent,
+.xWrapper {
+  display: flex;
+  align-items: flex-start;
+}
+.xWrapper {
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 1.7px 0 0;
+  font-size: var(--font-size-16xl);
+  color: var(--color-dimgray-400);
+}
+.rectangleParent {
+  align-self: stretch;
+  background-color: var(--color-gray-500);
+  flex-direction: row;
+  justify-content: space-between;
+  padding: var(--padding-mini) var(--padding-14xl) 13.8px var(--padding-6xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+.driverName {
+  position: relative;
+  display: inline-block;
+  min-width: 96px;
+}
+.frameItem {
+  height: 47px;
+  width: 344px;
+  position: relative;
+  border-radius: var(--br-7xs);
+  border: 1px solid var(--color-dimgray-500);
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+.selectADriver {
+  width: 187.9px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.rectangleGroup {
+  align-self: stretch;
+  border-radius: var(--br-7xs);
+  border: 1px solid var(--color-dimgray-500);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) 19.5px;
+  white-space: nowrap;
+  max-width: 100%;
+}
+.frameInner {
+  height: 47px;
+  width: 136px;
+  position: relative;
+  border-radius: var(--br-7xs);
+  background-color: var(--color-midnightblue-100);
+  display: none;
+}
+.continue {
+  position: relative;
+  display: inline-block;
+  min-width: 81px;
+  z-index: 1;
+}
+.driverNameParent,
+.frameGroup,
+.rectangleContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.rectangleContainer {
+  border-radius: var(--br-7xs);
+  background-color: var(--color-midnightblue-100);
+  flex-direction: row;
+  padding: var(--padding-3xs) var(--padding-8xl) var(--padding-3xs)
+    var(--padding-9xl);
+  color: var(--color-white);
+}
+.driverNameParent,
+.frameGroup {
+  flex-direction: column;
+  max-width: 100%;
+}
+.frameGroup {
+  align-self: stretch;
+  gap: var(--gap-smi);
+  font-size: var(--font-size-xl);
+  color: var(--color-gray-800);
+}
+.driverNameParent {
+  flex: 1;
+  gap: var(--gap-5xs);
+}
+.frameParent,
+.frameWrapper {
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  font-family: var(--font-nunito);
+}
+.frameWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-5xl) 0 var(--padding-6xl);
+  font-size: var(--font-size-mini);
+  color: var(--color-lightgray);
+}
+.frameParent {
+  width: 393px;
+  border-radius: var(--br-xs);
+  background-color: var(--color-darkslategray-300);
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-60xl);
+  gap: var(--gap-60xl);
+  letter-spacing: normal;
+  max-height: 100%;
+  font-size: var(--font-size-3xl);
+  color: var(--color-white);
+}

@@ -95,6 +95,7 @@
   left: 0;
   border-radius: var(--br-10xs);
   background-color: var(--color-maroon-100);
+  cursor: pointer;
 }
 .plusIcon {
   width: 24px;
@@ -141,6 +142,7 @@
   left: 0;
   border-radius: var(--br-10xs);
   background-color: var(--color-darkolivegreen-100);
+  cursor: pointer;
 }
 .plusIcon1 {
   width: 24px;
@@ -187,6 +189,7 @@
   left: 0;
   border-radius: var(--br-10xs);
   background-color: var(--color-midnightblue-100);
+  cursor: pointer;
 }
 .plusIcon2 {
   width: 24px;

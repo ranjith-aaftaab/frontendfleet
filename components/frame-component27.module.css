@@ -1,0 +1,69 @@
+.frameChild {
+  height: 90px;
+  width: 562px;
+  position: relative;
+  background-color: var(--color-gray-500);
+  display: none;
+  max-width: 100%;
+}
+.addDriverDetails {
+  position: relative;
+  white-space: nowrap;
+  z-index: 1;
+}
+.addDriverDetailsWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs-3) 0 0;
+}
+.x {
+  margin: 0;
+  height: 29.5px;
+  width: 27px;
+  position: relative;
+  font-size: var(--font-size-16xl);
+  font-weight: 400;
+  font-family: inherit;
+  color: var(--color-dimgray-400);
+  display: inline-block;
+  flex-shrink: 0;
+  white-space: nowrap;
+  cursor: pointer;
+  z-index: 1;
+}
+.frameWrapper,
+.rectangleParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.rectangleParent {
+  flex: 1;
+  background-color: var(--color-gray-500);
+  justify-content: space-between;
+  padding: var(--padding-8xl-7) var(--padding-17xl) var(--padding-12xl)
+    var(--padding-24xl);
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-3xl);
+  color: var(--color-white);
+  font-family: var(--font-nunito);
+}
+.frameWrapper {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-12xl);
+  top: 0;
+  z-index: 99;
+  position: sticky;
+}
+@media screen and (max-width: 450px) {
+  .rectangleParent {
+    padding-left: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

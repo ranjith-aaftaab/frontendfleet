@@ -1,0 +1,255 @@
+.driverName {
+  position: relative;
+  display: inline-block;
+  min-width: 96px;
+}
+.frameChild {
+  height: 47px;
+  width: 370px;
+  position: relative;
+  border-radius: var(--br-7xs);
+  border: 1px solid var(--color-dimgray-500);
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+.enterDriverName {
+  position: relative;
+  z-index: 1;
+}
+.driverNameParent,
+.rectangleParent {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.rectangleParent {
+  border-radius: var(--br-7xs);
+  border: 1px solid var(--color-dimgray-500);
+  box-sizing: border-box;
+  flex-direction: row;
+  padding: var(--padding-3xs) var(--padding-xl);
+  white-space: nowrap;
+  font-size: var(--font-size-xl);
+  color: var(--color-gray-800);
+}
+.driverNameParent {
+  flex-direction: column;
+  gap: var(--gap-5xs);
+}
+.mobileNumber {
+  position: relative;
+  display: inline-block;
+  min-width: 115px;
+}
+.frameItem {
+  height: 47px;
+  width: 370px;
+  position: relative;
+  border-radius: var(--br-7xs);
+  border: 1px solid var(--color-dimgray-500);
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+.enterMobileNumber {
+  position: relative;
+  white-space: pre-wrap;
+  z-index: 1;
+}
+.mobileNumberParent,
+.rectangleGroup {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.rectangleGroup {
+  border-radius: var(--br-7xs);
+  border: 1px solid var(--color-dimgray-500);
+  box-sizing: border-box;
+  flex-direction: row;
+  padding: var(--padding-3xs) var(--padding-xl);
+  white-space: nowrap;
+  font-size: var(--font-size-xl);
+  color: var(--color-gray-800);
+}
+.mobileNumberParent {
+  flex-direction: column;
+  gap: var(--gap-5xs);
+}
+.openingBalance,
+.optional {
+  position: relative;
+  display: inline-block;
+  min-width: 59px;
+}
+.openingBalance {
+  font-size: var(--font-size-xs);
+  min-width: 96px;
+}
+.ellipseDiv,
+.frameInner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 100%;
+}
+.ellipseDiv {
+  top: 2px;
+  left: 2px;
+  background-color: var(--color-midnightblue-100);
+  width: 8px;
+  height: 8px;
+  z-index: 1;
+}
+.ellipseParent {
+  width: 12px;
+  height: 12px;
+  position: relative;
+}
+.frameWrapper1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+}
+.driverHasTo {
+  position: relative;
+  display: inline-block;
+  min-width: 92px;
+}
+.frameParent1,
+.frameWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent1 {
+  gap: var(--gap-8xs);
+}
+.frameWrapper {
+  padding: 0 0 0 var(--padding-12xs);
+}
+.amount {
+  position: relative;
+  font-size: var(--font-size-mini);
+  display: inline-block;
+  min-width: 55px;
+}
+.frameDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-lgi);
+}
+.frameChild1 {
+  width: 12px;
+  height: 12px;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--color-white);
+  border: 0 solid var(--color-darkblue);
+  box-sizing: border-box;
+}
+.ellipseWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+}
+.driverHasTo1 {
+  position: relative;
+  display: inline-block;
+  min-width: 90px;
+}
+.frameContainer,
+.frameParent2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.frameContainer {
+  gap: var(--gap-5xl);
+}
+.rectangleDiv {
+  height: 47px;
+  width: 370px;
+  position: relative;
+  border-radius: var(--br-7xs);
+  border: 1px solid var(--color-dimgray-500);
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+.div,
+.enterAmount {
+  position: relative;
+  display: inline-block;
+  min-width: 126px;
+  z-index: 1;
+}
+.div {
+  min-width: 12px;
+}
+.rectangleContainer {
+  align-self: stretch;
+  border-radius: var(--br-7xs);
+  border: 1px solid var(--color-dimgray-500);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: var(--padding-3xs) var(--padding-lg) var(--padding-3xs)
+    var(--padding-lgi);
+  max-width: 100%;
+  gap: var(--gap-xl);
+  font-size: var(--font-size-xl);
+  color: var(--color-gray-800);
+}
+.optional1 {
+  position: relative;
+  font-size: var(--font-size-mini);
+  display: inline-block;
+  min-width: 59px;
+}
+.frameGroup,
+.frameParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameGroup {
+  align-self: stretch;
+  gap: var(--gap-6xs);
+  font-size: var(--font-size-xs);
+}
+.frameParent {
+  flex: 1;
+  gap: var(--gap-lg-3);
+  text-align: left;
+  font-size: var(--font-size-mini);
+  color: var(--color-lightgray);
+  font-family: var(--font-nunito);
+}
+@media screen and (max-width: 450px) {
+  .div,
+  .enterAmount {
+    font-size: var(--font-size-base);
+  }
+}

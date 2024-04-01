@@ -1314,7 +1314,7 @@
   background-color: var(--color-gray-600);
   overflow-y: auto;
   flex-shrink: 0;
-  padding: var(--padding-19xl) var(--padding-xs) 211px;
+  padding: var(--padding-19xl) var(--padding-xs) var(--padding-192xl);
   gap: var(--gap-18xl);
   font-size: var(--font-size-xs);
 }

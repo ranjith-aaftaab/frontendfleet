@@ -1,0 +1,278 @@
+.partyName {
+  position: relative;
+  display: inline-block;
+  min-width: 91px;
+}
+.frameChild {
+  height: 47px;
+  width: 370px;
+  position: relative;
+  border-radius: var(--br-7xs);
+  border: 1px solid var(--color-dimgray-500);
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+.enterPartyName1 {
+  position: relative;
+  z-index: 1;
+}
+.rectangleParent {
+  width: 370px;
+  border-radius: var(--br-7xs);
+  border: 1px solid var(--color-dimgray-500);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-xl);
+  white-space: nowrap;
+  max-width: 100%;
+  font-size: var(--font-size-xl);
+  color: var(--color-gray-800);
+}
+.openingBalance {
+  display: inline-block;
+  min-width: 126px;
+}
+.div,
+.frameItem,
+.openingBalance {
+  position: relative;
+}
+.frameItem {
+  height: 47px;
+  width: 223px;
+  border-radius: var(--br-7xs);
+  border: 1px solid var(--color-dimgray-500);
+  box-sizing: border-box;
+  display: none;
+}
+.div {
+  width: 24.3px;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.addNewParty,
+.rectangleGroup {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.rectangleGroup {
+  border-radius: var(--br-7xs);
+  border: 1px solid var(--color-dimgray-500);
+  flex-direction: row;
+  padding: var(--padding-3xs) var(--padding-2xs-8);
+  font-size: var(--font-size-xl);
+  color: var(--color-gray-800);
+}
+.addNewParty {
+  flex-direction: column;
+  gap: var(--gap-5xs);
+}
+.calendarIcon {
+  display: inline-block;
+  min-width: 12px;
+}
+.addMobileNumber,
+.calendarIcon {
+  position: relative;
+}
+.addMobileNumberWrapper {
+  flex-direction: column;
+  padding: var(--padding-9xs) 0 0;
+  font-size: var(--font-size-mini);
+}
+.addMobileNumberLabel,
+.addMobileNumberWrapper,
+.addNewPartyParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.addMobileNumberLabel {
+  flex-direction: row;
+  gap: var(--gap-11xs);
+  font-size: var(--font-size-xl);
+  color: var(--color-cornflowerblue);
+}
+.addNewPartyParent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-lg);
+  min-width: 145px;
+}
+.frameInner,
+.openingBalanceDate {
+  position: relative;
+}
+.frameInner {
+  height: 47px;
+  width: 223px;
+  border-radius: var(--br-7xs);
+  border: 1px solid var(--color-dimgray-500);
+  box-sizing: border-box;
+  display: none;
+}
+.detailsContainer {
+  position: relative;
+  display: inline-block;
+  min-width: 115px;
+  z-index: 1;
+}
+.calendarIcon1 {
+  width: 22px;
+  height: 22px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.partyIcon,
+.rectangleContainer {
+  display: flex;
+  align-items: flex-start;
+}
+.partyIcon {
+  height: 25px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) 0 0;
+  box-sizing: border-box;
+}
+.rectangleContainer {
+  align-self: stretch;
+  border-radius: var(--br-7xs);
+  border: 1px solid var(--color-dimgray-500);
+  flex-direction: row;
+  justify-content: space-between;
+  padding: var(--padding-3xs) var(--padding-xs) var(--padding-3xs)
+    var(--padding-3xs);
+  gap: var(--gap-xl);
+  font-size: var(--font-size-xl);
+  color: var(--color-gray-800);
+}
+.saveButton {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-5xs);
+  min-width: 145px;
+}
+.enterPartyName,
+.enterPartyNameWrapper,
+.frameGroup,
+.saveButton {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameGroup {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: var(--gap-17xl);
+}
+.enterPartyName,
+.enterPartyNameWrapper {
+  max-width: 100%;
+}
+.enterPartyName {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-5xs);
+}
+.enterPartyNameWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-11xs);
+  box-sizing: border-box;
+}
+.untitledDesign2 {
+  width: 16px;
+  height: 17px;
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+}
+.untitledDesign2Wrapper {
+  height: 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) 0 0;
+  box-sizing: border-box;
+}
+.safeSecure {
+  position: relative;
+}
+.titleLabel {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.circleShape {
+  width: 12px;
+  height: 12px;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--color-dimgray-100);
+}
+.circleShapeWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) 0 0;
+}
+.bitEncryption {
+  position: relative;
+  display: inline-block;
+  min-width: 127px;
+}
+.bitIcon,
+.frameParent,
+.titleLabelParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.bitIcon {
+  gap: var(--gap-7xs);
+  color: var(--color-white);
+}
+.frameParent,
+.titleLabelParent {
+  gap: var(--gap-7xl);
+  max-width: 100%;
+}
+.frameParent {
+  width: 484px;
+  flex-direction: column;
+  gap: var(--gap-lgi);
+  text-align: left;
+  font-size: var(--font-size-mini);
+  color: var(--color-lightgray);
+  font-family: var(--font-nunito);
+}
+@media screen and (max-width: 600px) {
+  .frameGroup {
+    gap: var(--gap-lg);
+  }
+}
+@media screen and (max-width: 450px) {
+  .calendarIcon,
+  .detailsContainer,
+  .div {
+    font-size: var(--font-size-base);
+  }
+  .titleLabelParent {
+    flex-wrap: wrap;
+  }
+}

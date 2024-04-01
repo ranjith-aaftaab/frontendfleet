@@ -1,0 +1,74 @@
+.optional {
+  position: relative;
+  font-size: var(--font-size-mini);
+  font-family: var(--font-nunito);
+  color: var(--color-lightgray);
+  text-align: left;
+  display: inline-block;
+  min-width: 59px;
+}
+.frameChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-7xs);
+  background-color: var(--color-lightsteelblue);
+  border: 1.5px solid var(--color-midnightblue-100);
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+.addOpeningBalance {
+  position: absolute;
+  top: 6px;
+  left: 11px;
+  font-size: var(--font-size-xs);
+  font-family: var(--font-nunito);
+  color: var(--color-midnightblue-100);
+  text-align: left;
+  display: inline-block;
+  min-width: 118px;
+  z-index: 1;
+}
+.rectangleParent {
+  align-self: stretch;
+  height: 28px;
+  position: relative;
+  white-space: nowrap;
+}
+.frameParent,
+.frameWrapper,
+.optionalParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.optionalParent {
+  width: 140px;
+  flex-direction: column;
+  gap: var(--gap-sm);
+}
+.frameParent,
+.frameWrapper {
+  max-width: 100%;
+}
+.frameParent {
+  margin: 0;
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-lg);
+}
+.frameWrapper {
+  width: 456px;
+  flex-direction: row;
+  padding: 0 var(--padding-24xl);
+  box-sizing: border-box;
+}
+@media screen and (max-width: 450px) {
+  .frameWrapper {
+    padding-left: var(--padding-2xl);
+    padding-right: var(--padding-2xl);
+    box-sizing: border-box;
+  }
+}
