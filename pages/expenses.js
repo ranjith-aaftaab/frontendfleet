@@ -46,7 +46,7 @@ const Expenses = () => {
                           className={styles.infoIcon}
                           loading="lazy"
                           alt=""
-                          src="/info.svg"
+                          src="/info1.svg"
                         />
                       </div>
                       <div className={styles.div}>$0</div>
