@@ -1,0 +1,281 @@
+.paperLight {
+  display: none;
+}
+.paperLight,
+.userCicrleLightIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+}
+.suppliers {
+  position: relative;
+  display: inline-block;
+  min-width: 77px;
+  cursor: pointer;
+}
+.frameWrapper,
+.suppliersWrapper,
+.userCicrleLightParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.suppliersWrapper {
+  flex-direction: column;
+  padding: var(--padding-11xs) 0 0;
+}
+.frameWrapper,
+.userCicrleLightParent {
+  flex-direction: row;
+}
+.userCicrleLightParent {
+  align-self: stretch;
+  gap: var(--gap-6xs);
+}
+.frameWrapper {
+  height: 27px;
+  padding: 0 var(--padding-4xs);
+  box-sizing: border-box;
+}
+.lightSourceOneInstanceChild {
+  height: 49px;
+  width: 256px;
+  position: relative;
+  border-radius: var(--br-9xs);
+  background-color: var(--color-darkolivegreen-100);
+  box-shadow: 0 2px 22.7px 3px rgba(255, 255, 255, 0.05);
+  border: 1px solid var(--color-darkslategray-100);
+  box-sizing: border-box;
+  display: none;
+}
+.steeringWheelIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.drivers {
+  position: relative;
+  display: inline-block;
+  min-width: 58px;
+  z-index: 1;
+}
+.driversWrapper,
+.lightSourceOneInstance {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) 0 0;
+}
+.lightSourceOneInstance {
+  align-self: stretch;
+  flex: 1;
+  border-radius: var(--br-9xs);
+  background-color: var(--color-darkolivegreen-100);
+  box-shadow: 0 2px 22.7px 3px rgba(255, 255, 255, 0.05);
+  border: 1px solid var(--color-darkslategray-100);
+  flex-direction: row;
+  padding: var(--padding-4xs) var(--padding-4xs) var(--padding-xs);
+  gap: var(--gap-6xs);
+}
+.truckIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.trucks {
+  position: relative;
+  display: inline-block;
+  min-width: 52px;
+  cursor: pointer;
+}
+.truckParent {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-6xs);
+}
+.frameContainer,
+.frameGroup,
+.truckParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameContainer {
+  height: 25px;
+  flex-direction: row;
+  padding: 0 var(--padding-4xs);
+  box-sizing: border-box;
+}
+.frameGroup {
+  align-self: stretch;
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-mid);
+}
+.icons8Money301 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  object-fit: cover;
+}
+.expenses {
+  position: relative;
+  display: inline-block;
+  min-width: 78px;
+  cursor: pointer;
+}
+.expensesWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+}
+.icons8Money301Parent {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-6xs);
+}
+.frameDiv,
+.frameParent,
+.icons8Money301Parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameDiv {
+  height: 27px;
+  flex-direction: row;
+  padding: 0 var(--padding-4xs);
+  box-sizing: border-box;
+}
+.frameParent {
+  align-self: stretch;
+  flex: 1;
+  flex-direction: column;
+  padding: 0 0 var(--padding-287xl);
+  gap: var(--gap-7xl-5);
+}
+.untitledDesign1 {
+  width: 21px;
+  height: 27px;
+  position: relative;
+  object-fit: cover;
+}
+.martyXTransportLabel {
+  height: 29px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+  box-sizing: border-box;
+}
+.martexTransport {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  z-index: 1;
+}
+.martyXTransportLabelParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.untitledDesign2 {
+  width: 16px;
+  height: 17px;
+  position: relative;
+  object-fit: cover;
+}
+.untitledDesign2Wrapper {
+  height: 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) 0 0;
+  box-sizing: border-box;
+}
+.safeSecure {
+  position: relative;
+}
+.driverProfileInfo,
+.safeAndSecureLabel {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.driverProfileInfo {
+  justify-content: flex-start;
+  gap: var(--gap-7xs);
+}
+.safeAndSecureLabel {
+  justify-content: flex-end;
+  padding: 0 var(--padding-12xl) 0 var(--padding-17xl);
+  font-size: var(--font-size-mini);
+}
+.frameParent1,
+.frameWrapper1,
+.paperLightParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.frameWrapper1,
+.paperLightParent {
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-7xs);
+  font-size: var(--font-size-6xl);
+}
+.paperLightParent {
+  height: 945px;
+  width: 279px;
+  background-color: var(--color-gray-600);
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: column;
+  padding: var(--padding-44xl) var(--padding-2xs) var(--padding-22xl);
+  box-sizing: border-box;
+  gap: var(--gap-8xl);
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-white);
+  font-family: var(--font-nunito);
+}
+@media screen and (max-width: 950px) {
+  .paperLightParent {
+    display: none;
+    padding-top: var(--padding-22xl);
+    padding-bottom: var(--padding-8xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 700px) {
+  .frameParent,
+  .paperLightParent {
+    padding-bottom: var(--padding-180xl);
+    box-sizing: border-box;
+  }
+  .paperLightParent {
+    padding-top: var(--padding-8xl);
+    padding-bottom: var(--padding-xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .martexTransport {
+    font-size: var(--font-size-xl);
+  }
+}

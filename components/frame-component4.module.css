@@ -1,0 +1,125 @@
+.frameChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
+}
+.diamondAltlightIcon {
+  top: 4px;
+  width: 4px;
+}
+.diamondAltlightIcon,
+.diamondAltlightIcon1,
+.diamondAltlightIcon2 {
+  position: absolute;
+  left: 4px;
+  border-radius: var(--br-11xs);
+  height: 1px;
+  z-index: 1;
+}
+.diamondAltlightIcon1 {
+  top: 8px;
+  width: 1px;
+  object-fit: contain;
+}
+.diamondAltlightIcon2 {
+  top: 12px;
+  width: 3px;
+}
+.vectorParent {
+  width: 18px;
+  height: 18px;
+  position: relative;
+}
+.frameDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) 0 0;
+}
+.invoices {
+  position: relative;
+  display: inline-block;
+  min-width: 65px;
+  cursor: pointer;
+}
+.frameContainer,
+.frameGroup {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameGroup {
+  gap: var(--gap-3xs);
+}
+.frameContainer {
+  padding: 0 0 0 var(--padding-10xs);
+}
+.orderLightIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+}
+.reports {
+  position: relative;
+  display: inline-block;
+  min-width: 64px;
+  cursor: pointer;
+}
+.reportsWrapper,
+.userboxlightInstance {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.reportsWrapper {
+  flex-direction: column;
+  padding: var(--padding-11xs) 0 0;
+}
+.userboxlightInstance {
+  flex: 1;
+  flex-direction: row;
+  gap: var(--gap-6xs);
+}
+.userBoxLightIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+}
+.profile {
+  position: relative;
+  display: inline-block;
+  min-width: 53px;
+  cursor: pointer;
+}
+.userBoxLightParent {
+  flex: 1;
+  flex-direction: row;
+  gap: var(--gap-6xs);
+}
+.frameParent,
+.frameWrapper,
+.userBoxLightParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-9xl);
+}
+.frameWrapper {
+  height: 133px;
+  flex-direction: row;
+  padding: 0 var(--padding-4xs);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-white);
+  font-family: var(--font-nunito);
+}

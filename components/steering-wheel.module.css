@@ -1,0 +1,363 @@
+.frameChild {
+  height: 48px;
+  width: 256px;
+  position: relative;
+  border-radius: var(--br-9xs);
+  background-color: var(--color-darkolivegreen-100);
+  box-shadow: 0 2px 22.7px 3px rgba(255, 255, 255, 0.05);
+  border: 1px solid var(--color-darkslategray-100);
+  box-sizing: border-box;
+  display: none;
+}
+.deskLightIcon,
+.parties {
+  position: relative;
+  z-index: 1;
+}
+.deskLightIcon {
+  height: 24px;
+  width: 24px;
+}
+.parties {
+  height: 25px;
+  display: inline-block;
+  min-width: 57px;
+}
+.rectangleParent {
+  align-self: stretch;
+  height: 48px;
+  border-radius: var(--br-9xs);
+  background-color: var(--color-darkolivegreen-100);
+  box-shadow: 0 2px 22.7px 3px rgba(255, 255, 255, 0.05);
+  border: 1px solid var(--color-darkslategray-100);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xs) var(--padding-4xs) var(--padding-2xs);
+  gap: var(--gap-6xs);
+}
+.mapPinIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.trips {
+  position: relative;
+  display: inline-block;
+  min-width: 40px;
+  cursor: pointer;
+}
+.activeTripsCounter,
+.mapPinParent,
+.tripsWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.tripsWrapper {
+  flex-direction: column;
+  padding: var(--padding-10xs) 0 0;
+}
+.activeTripsCounter,
+.mapPinParent {
+  flex-direction: row;
+}
+.mapPinParent {
+  align-self: stretch;
+  gap: var(--gap-6xs);
+}
+.activeTripsCounter {
+  height: 40px;
+  padding: 0 var(--padding-4xs) var(--padding-xs);
+  box-sizing: border-box;
+}
+.userCicrleLightIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+}
+.suppliers {
+  position: relative;
+  display: inline-block;
+  min-width: 77px;
+  cursor: pointer;
+}
+.suppliersExpenses,
+.truckIcon,
+.truckIconWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.suppliersExpenses {
+  flex-direction: column;
+  padding: var(--padding-11xs) 0 0;
+}
+.truckIcon,
+.truckIconWrapper {
+  flex-direction: row;
+}
+.truckIcon {
+  align-self: stretch;
+  gap: var(--gap-6xs);
+}
+.truckIconWrapper {
+  height: 38px;
+  padding: 0 var(--padding-4xs) var(--padding-2xs);
+  box-sizing: border-box;
+}
+.steeringWheelIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.drivers {
+  position: relative;
+  display: inline-block;
+  min-width: 58px;
+  cursor: pointer;
+}
+.infoComponent,
+.sorryParties,
+.steeringWheelParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.sorryParties {
+  flex-direction: column;
+  padding: var(--padding-10xs) 0 0;
+}
+.infoComponent,
+.steeringWheelParent {
+  flex-direction: row;
+}
+.steeringWheelParent {
+  align-self: stretch;
+  gap: var(--gap-6xs);
+}
+.infoComponent {
+  height: 42px;
+  padding: 0 var(--padding-4xs) var(--padding-sm);
+  box-sizing: border-box;
+}
+.truckIcon1 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.trucks {
+  position: relative;
+  display: inline-block;
+  min-width: 52px;
+  cursor: pointer;
+}
+.steeringWheelInner,
+.truckParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.truckParent {
+  align-self: stretch;
+  gap: var(--gap-6xs);
+}
+.steeringWheelInner {
+  height: 37px;
+  padding: 0 var(--padding-4xs) var(--padding-xs);
+  box-sizing: border-box;
+}
+.icons8Money301 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  object-fit: cover;
+}
+.expenses {
+  position: relative;
+  display: inline-block;
+  min-width: 78px;
+  cursor: pointer;
+}
+.expensesWrapper,
+.icons8Money301Parent,
+.steeringWheelChild {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.expensesWrapper {
+  flex-direction: column;
+  padding: var(--padding-11xs) 0 0;
+}
+.icons8Money301Parent,
+.steeringWheelChild {
+  flex-direction: row;
+}
+.icons8Money301Parent {
+  align-self: stretch;
+  gap: var(--gap-6xs);
+}
+.steeringWheelChild {
+  height: 38px;
+  padding: 0 var(--padding-4xs) var(--padding-2xs);
+  box-sizing: border-box;
+}
+.searchPartiesContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
+}
+.sorryNoTripsFound {
+  top: 4px;
+  width: 4px;
+}
+.sorryNoTripsFound,
+.sorryNoTripsFound1,
+.sorryNoTripsFound2 {
+  position: absolute;
+  left: 4px;
+  border-radius: var(--br-11xs);
+  height: 1px;
+  z-index: 1;
+}
+.sorryNoTripsFound1 {
+  top: 8px;
+  width: 1px;
+  object-fit: contain;
+}
+.sorryNoTripsFound2 {
+  top: 12px;
+  width: 3px;
+}
+.searchPartiesContainerParent {
+  width: 18px;
+  height: 18px;
+  position: relative;
+}
+.activeTripsCount {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) 0 0;
+}
+.invoices {
+  position: relative;
+  display: inline-block;
+  min-width: 65px;
+  cursor: pointer;
+}
+.partyInfoInstance,
+.searchParties {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.searchParties {
+  gap: var(--gap-3xs);
+}
+.partyInfoInstance {
+  padding: 0 var(--padding-xs) var(--padding-3xs);
+}
+.shopLightIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+}
+.reports {
+  position: relative;
+  display: inline-block;
+  min-width: 64px;
+  cursor: pointer;
+}
+.driversList,
+.profileInfo,
+.profileInfoWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.driversList {
+  flex-direction: column;
+  padding: var(--padding-9xs) 0 0;
+}
+.profileInfo,
+.profileInfoWrapper {
+  flex-direction: row;
+}
+.profileInfo {
+  align-self: stretch;
+  gap: var(--gap-6xs);
+}
+.profileInfoWrapper {
+  height: 43px;
+  padding: 0 var(--padding-4xs) var(--padding-sm);
+  box-sizing: border-box;
+}
+.profile {
+  position: relative;
+  display: inline-block;
+  min-width: 53px;
+  cursor: pointer;
+}
+.shopComponents {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-21xl) var(--padding-3xs);
+}
+.orderLightIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+}
+.orderLightWrapper {
+  height: 41px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-4xs) var(--padding-mid);
+  box-sizing: border-box;
+}
+.userBoxLightIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+}
+.steeringWheel,
+.userBoxLightWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.userBoxLightWrapper {
+  height: 24px;
+  flex-direction: row;
+  padding: 0 var(--padding-4xs);
+  box-sizing: border-box;
+}
+.steeringWheel {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-mini);
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-white);
+  font-family: var(--font-nunito);
+}

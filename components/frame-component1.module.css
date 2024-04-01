@@ -1,0 +1,191 @@
+.infoInstanceChild {
+  height: 76px;
+  width: 323px;
+  position: relative;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-black);
+  border: 2px solid var(--color-gray-300);
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+.infoIcon,
+.totalPartyBalance {
+  position: relative;
+  z-index: 1;
+}
+.infoIcon {
+  width: 24px;
+  height: 24px;
+}
+.infoWrapper {
+  height: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) 0 0;
+  box-sizing: border-box;
+}
+.div {
+  position: relative;
+  display: inline-block;
+  text-shadow: 0 0 3.6px #06f;
+  min-width: 24px;
+  white-space: nowrap;
+  z-index: 1;
+}
+.mobileNumberInput {
+  width: 98px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  color: var(--color-mediumslateblue-200);
+}
+.infoInstance,
+.totalActiveTripsDisplayChild {
+  border-radius: var(--br-8xs);
+  background-color: var(--color-black);
+  border: 2px solid var(--color-gray-300);
+  box-sizing: border-box;
+}
+.infoInstance {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-6xl) var(--padding-lgi) var(--padding-5xl)
+    var(--padding-xl);
+  gap: var(--gap-6xs);
+  max-width: 100%;
+}
+.totalActiveTripsDisplayChild {
+  height: 76px;
+  width: 302px;
+  position: relative;
+  display: none;
+}
+.infoIcon1,
+.totalActiveTrips {
+  position: relative;
+  z-index: 1;
+}
+.infoIcon1 {
+  width: 24px;
+  height: 24px;
+}
+.designNameMobileNumber {
+  height: 25px;
+  width: 72px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) 0 0;
+  box-sizing: border-box;
+}
+.activeTripsCount {
+  position: relative;
+  color: var(--color-mediumseagreen);
+  display: inline-block;
+  text-shadow: 0 0 4.6px #0fa855;
+  min-width: 12px;
+  z-index: 1;
+}
+.marteXtransportTitle,
+.totalActiveTripsDisplay {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.totalActiveTripsDisplay {
+  border-radius: var(--br-8xs);
+  background-color: var(--color-black);
+  border: 2px solid var(--color-gray-300);
+  padding: var(--padding-5xl) var(--padding-xl) var(--padding-6xl)
+    var(--padding-5xl);
+  gap: var(--gap-6xs);
+}
+.marteXtransportTitle {
+  gap: var(--gap-11xl);
+  max-width: 100%;
+}
+.frameChild {
+  height: 53px;
+  width: 790px;
+  position: relative;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-black);
+  border: 2px solid var(--color-gray-300);
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+.searchLightIcon {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  z-index: 1;
+}
+.activeTripsCountDisplay {
+  height: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) 0 0;
+  box-sizing: border-box;
+}
+.searchPartires {
+  position: relative;
+  z-index: 1;
+}
+.marteXtransportTitleParent,
+.rectangleParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.rectangleParent {
+  align-self: stretch;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-black);
+  border: 2px solid var(--color-gray-300);
+  box-sizing: border-box;
+  flex-direction: row;
+  padding: var(--padding-smi) var(--padding-3xl);
+  gap: var(--gap-mini);
+  color: var(--color-gray-200);
+}
+.marteXtransportTitleParent {
+  width: 790px;
+  flex-direction: column;
+  gap: var(--gap-3xl);
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+  font-family: var(--font-nunito);
+}
+@media screen and (max-width: 725px) {
+  .marteXtransportTitle {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .div,
+  .totalPartyBalance {
+    font-size: var(--font-size-base);
+  }
+  .infoInstance {
+    flex-wrap: wrap;
+  }
+  .activeTripsCount,
+  .searchPartires,
+  .totalActiveTrips {
+    font-size: var(--font-size-base);
+  }
+}

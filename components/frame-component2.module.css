@@ -1,0 +1,227 @@
+.frameChild,
+.rectangleParent {
+  border-radius: var(--br-11xs);
+  background-color: var(--color-dimgray-300);
+}
+.frameChild {
+  height: 48px;
+  width: 51px;
+  position: relative;
+  display: none;
+}
+.rectangleParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.partyLabel,
+.user {
+  position: relative;
+  display: inline-block;
+  min-width: 38px;
+  flex-shrink: 0;
+  debug_commit: f6aba90;
+}
+.partyLabel {
+  margin-top: -4px;
+  min-width: 108px;
+}
+.userBox {
+  height: 21px;
+  flex-direction: row;
+  padding: 0;
+  box-sizing: border-box;
+}
+.frameContainer,
+.partyIcon,
+.userBox,
+.usersAndSuppliers {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.usersAndSuppliers {
+  flex-direction: column;
+}
+.frameContainer,
+.partyIcon {
+  flex: 1;
+}
+.partyIcon {
+  flex-direction: column;
+  padding: var(--padding-9xs) 0 0;
+}
+.frameContainer {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-3xs);
+}
+.parties {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  min-width: 79px;
+  white-space: nowrap;
+}
+.frameGroup,
+.partiesWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.partiesWrapper {
+  flex-direction: column;
+  padding: var(--padding-smi) 0 0;
+  font-size: var(--font-size-6xl);
+}
+.frameGroup {
+  align-self: stretch;
+  width: 383px;
+  flex-direction: row;
+  gap: var(--gap-113xl);
+  max-width: 100%;
+}
+.moneyIconChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-9xs);
+  background-color: var(--color-midnightblue-200);
+  box-shadow: 0 2px 22.7px 3px rgba(255, 255, 255, 0.05);
+  width: 100%;
+  height: 100%;
+}
+.addParty,
+.plusIcon {
+  position: absolute;
+  top: 6px;
+  z-index: 1;
+}
+.addParty {
+  left: 46px;
+  display: inline-block;
+  width: 87px;
+  text-shadow: 0 0 4.2px #06f;
+  min-width: 87px;
+}
+.plusIcon {
+  left: 12px;
+  width: 23px;
+  height: 24px;
+  overflow: hidden;
+}
+.moneyIcon {
+  height: 36px;
+  flex: 1;
+  position: relative;
+  white-space: nowrap;
+}
+.moneyIconItem {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-9xs);
+  background-color: var(--color-darkolivegreen-200);
+  box-shadow: 0 2px 22.7px 3px rgba(255, 255, 255, 0.05);
+}
+.addTrip,
+.plusIcon1 {
+  position: relative;
+  z-index: 1;
+}
+.plusIcon1 {
+  height: 24px;
+  width: 23px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.addTrip {
+  display: inline-block;
+  text-shadow: 0 0 4.2px #0fa855;
+  min-width: 76px;
+}
+.moneyIcon1,
+.partySupplier {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.moneyIcon1 {
+  height: 36px;
+  flex: 0.761;
+  padding: var(--padding-7xs) var(--padding-lgi) var(--padding-8xs);
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-2xs);
+  white-space: nowrap;
+  color: var(--color-mediumseagreen);
+}
+.partySupplier {
+  align-self: stretch;
+  gap: var(--gap-24xl);
+}
+.frameParent,
+.partySupplierWrapper {
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.partySupplierWrapper {
+  width: 361px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-10xs);
+  color: var(--color-mediumslateblue-100);
+}
+.frameParent {
+  align-self: stretch;
+  height: 79px;
+  background-color: var(--color-gray-600);
+  box-shadow: 0 4px 35.1px 13px rgba(116, 116, 116, 0.05);
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: var(--padding-xs) var(--padding-45xl) var(--padding-smi)
+    var(--padding-14xl);
+  top: 0;
+  z-index: 99;
+  position: sticky;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-white);
+  font-family: var(--font-nunito);
+}
+@media screen and (max-width: 1000px) {
+  .usersAndSuppliers {
+    display: none;
+  }
+}
+@media screen and (max-width: 725px) {
+  .frameParent {
+    padding-right: var(--padding-13xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .frameGroup {
+    gap: 132px 66px;
+  }
+  .partySupplier {
+    gap: 43px 21px;
+  }
+}

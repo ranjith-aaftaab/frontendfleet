@@ -1,0 +1,309 @@
+.searchLightInstanceChild {
+  height: 76px;
+  width: 342px;
+  position: relative;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-black);
+  border: 2px solid var(--color-gray-300);
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+.infoIcon,
+.totalDriverBalance {
+  position: relative;
+  z-index: 1;
+}
+.infoIcon {
+  width: 24px;
+  height: 24px;
+}
+.profileTitle {
+  height: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) var(--padding-3xl) 0 0;
+  box-sizing: border-box;
+}
+.infoInstance {
+  position: relative;
+  color: var(--color-mediumslateblue-200);
+  display: inline-block;
+  text-shadow: 0 0 3.6px #06f;
+  min-width: 24px;
+  white-space: nowrap;
+  z-index: 1;
+}
+.frameChild,
+.searchLightInstance1 {
+  border-radius: var(--br-8xs);
+  background-color: var(--color-black);
+  border: 2px solid var(--color-gray-300);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.searchLightInstance1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-6xl) var(--padding-base) var(--padding-5xl)
+    var(--padding-xl);
+  gap: var(--gap-6xl);
+}
+.frameChild {
+  height: 53px;
+  width: 790px;
+  position: relative;
+  display: none;
+}
+.searchLightIcon {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  z-index: 1;
+}
+.searchLightWrapper {
+  height: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) 0 0;
+  box-sizing: border-box;
+}
+.searchDrivers {
+  position: relative;
+  z-index: 1;
+}
+.noDriversFoundTitleChild,
+.rectangleParent {
+  border-radius: var(--br-8xs);
+  border: 2px solid var(--color-gray-300);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.rectangleParent {
+  width: 790px;
+  background-color: var(--color-black);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-smi) var(--padding-3xl);
+  gap: var(--gap-mini);
+}
+.noDriversFoundTitleChild {
+  height: 608px;
+  width: 1048px;
+  position: relative;
+  background-color: var(--color-gray-700);
+  display: none;
+}
+.errorMessageInstanceChild,
+.searchLightInstanceItem {
+  position: relative;
+  border-radius: var(--br-8xs) var(--br-8xs) 0 0;
+  box-sizing: border-box;
+  display: none;
+}
+.errorMessageInstanceChild {
+  align-self: stretch;
+  height: 132px;
+  background-color: var(--color-black);
+  border: 2px solid var(--color-gray-300);
+}
+.searchLightInstanceItem {
+  height: 66px;
+  width: 1046px;
+  background-color: var(--color-gray-500);
+  border-top: 2px solid var(--color-gray-400);
+  border-left: 2px solid var(--color-gray-400);
+  flex-shrink: 0;
+}
+.driverName,
+.phoneNumber {
+  position: relative;
+  display: inline-block;
+  min-width: 102px;
+  z-index: 3;
+}
+.phoneNumber {
+  min-width: 122px;
+}
+.driverDataList {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-6xl) 0 0;
+}
+.status {
+  position: relative;
+  display: inline-block;
+  min-width: 52px;
+  z-index: 3;
+}
+.driverDataList1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-13xl) 0 0;
+}
+.balanceBalance {
+  position: relative;
+  z-index: 3;
+}
+.searchLightInstance2 {
+  align-self: stretch;
+  border-radius: var(--br-8xs) var(--br-8xs) 0 0;
+  background-color: var(--color-gray-500);
+  border-top: 2px solid var(--color-gray-400);
+  border-left: 2px solid var(--color-gray-400);
+  overflow-x: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: var(--padding-4xl) 28px var(--padding-lg) var(--padding-22xl);
+  gap: var(--gap-xl);
+  z-index: 2;
+}
+.sorryNoDrivers {
+  position: relative;
+  z-index: 2;
+}
+.driverNameLabel,
+.errorMessageInstance {
+  box-sizing: border-box;
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.driverNameLabel {
+  width: 1030px;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  color: var(--color-darkgray);
+}
+.errorMessageInstance {
+  flex: 1;
+  border-radius: var(--br-8xs) var(--br-8xs) 0 0;
+  background-color: var(--color-black);
+  border: 2px solid var(--color-gray-300);
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-5xl);
+  gap: var(--gap-mid);
+  z-index: 1;
+}
+.noDriversFoundTitle,
+.searchDriversArea,
+.searchLightInstance {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.noDriversFoundTitle {
+  border-radius: var(--br-8xs);
+  background-color: var(--color-gray-700);
+  border: 2px solid var(--color-gray-300);
+  box-sizing: border-box;
+  flex-direction: row;
+  padding: 0 0 var(--padding-457xl);
+  font-size: var(--font-size-lg);
+  color: var(--color-white);
+}
+.searchDriversArea,
+.searchLightInstance {
+  flex-direction: column;
+}
+.searchDriversArea {
+  gap: var(--gap-mid);
+  color: var(--color-gray-200);
+}
+.searchLightInstance {
+  border-radius: var(--br-6xs);
+  background-color: var(--color-gray-600);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+  padding: var(--padding-11xl) var(--padding-4xl) var(--padding-69xl);
+  box-sizing: border-box;
+  gap: var(--gap-3xl);
+}
+.searchLightInstanceWrapper {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-7xl) 0 0;
+  box-sizing: border-box;
+  max-width: calc(100% - 305px);
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+  font-family: var(--font-nunito);
+}
+.drivers,
+.searchLightInstanceWrapper,
+.userCirclelightInstance {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.userCirclelightInstance {
+  width: 1427px;
+  flex-direction: row;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-7xl);
+  max-width: 100%;
+}
+.drivers {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-gray-700);
+  overflow: hidden;
+  flex-direction: column;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 950px) {
+  .searchLightInstance {
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-38xl);
+    box-sizing: border-box;
+  }
+  .searchLightInstanceWrapper {
+    max-width: 100%;
+  }
+  .userCirclelightInstance {
+    padding-left: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 700px) {
+  .noDriversFoundTitle {
+    padding-bottom: var(--padding-290xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .infoInstance,
+  .totalDriverBalance {
+    font-size: var(--font-size-base);
+  }
+  .searchLightInstance1 {
+    flex-wrap: wrap;
+  }
+  .searchDrivers {
+    font-size: var(--font-size-base);
+  }
+  .searchLightInstance {
+    padding-bottom: var(--padding-18xl);
+    box-sizing: border-box;
+  }
+}

@@ -1,0 +1,201 @@
+.frameChild,
+.frameInner,
+.frameItem {
+  position: relative;
+  box-sizing: border-box;
+  display: none;
+}
+.frameChild {
+  height: 608px;
+  width: 1048px;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-gray-700);
+  border: 2px solid var(--color-gray-300);
+  max-width: 100%;
+}
+.frameInner,
+.frameItem {
+  border-radius: var(--br-8xs) var(--br-8xs) 0 0;
+}
+.frameItem {
+  align-self: stretch;
+  height: 132px;
+  background-color: var(--color-black);
+  border: 2px solid var(--color-gray-300);
+}
+.frameInner {
+  height: 66px;
+  width: 1046px;
+  background-color: var(--color-gray-500);
+  border-top: 2px solid var(--color-gray-400);
+  border-left: 2px solid var(--color-gray-400);
+  flex-shrink: 0;
+}
+.mobileNumber,
+.supplierName {
+  position: relative;
+  display: inline-block;
+  min-width: 121px;
+  z-index: 3;
+}
+.mobileNumber {
+  min-width: 125px;
+}
+.supplierNameParent {
+  width: 327px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 81px;
+}
+.activeTrips {
+  position: relative;
+  display: inline-block;
+  min-width: 95px;
+  z-index: 3;
+}
+.activeTripsWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-18xl) 0 0;
+}
+.supplierBalance {
+  position: relative;
+  z-index: 3;
+}
+.rectangleContainer {
+  align-self: stretch;
+  border-radius: var(--br-8xs) var(--br-8xs) 0 0;
+  background-color: var(--color-gray-500);
+  border-top: 2px solid var(--color-gray-400);
+  border-left: 2px solid var(--color-gray-400);
+  overflow-x: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: var(--padding-4xl) var(--padding-6xl) var(--padding-lg)
+    var(--padding-22xl);
+  gap: var(--gap-xl);
+  z-index: 2;
+}
+.sorryNoSuppliers {
+  position: relative;
+  z-index: 2;
+}
+.sorryNoSuppliersFoundWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  color: var(--color-darkgray);
+}
+.rectangleGroup,
+.rectangleParent {
+  border: 2px solid var(--color-gray-300);
+  box-sizing: border-box;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.rectangleGroup {
+  flex: 1;
+  border-radius: var(--br-8xs) var(--br-8xs) 0 0;
+  background-color: var(--color-black);
+  flex-direction: column;
+  padding: 0 0 var(--padding-5xl);
+  gap: var(--gap-mid);
+  z-index: 1;
+}
+.rectangleParent {
+  align-self: stretch;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-gray-700);
+  flex-direction: row;
+  padding: 0 0 var(--padding-457xl);
+}
+.frameGroup,
+.frameWrapper {
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.frameGroup {
+  align-self: stretch;
+  border-radius: var(--br-6xs);
+  background-color: var(--color-gray-600);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xl) var(--padding-4xl) var(--padding-69xl);
+  gap: var(--gap-mid);
+  max-width: 100%;
+}
+.frameWrapper {
+  flex: 1;
+  padding: var(--padding-7xl) 0 0;
+  max-width: calc(100% - 305px);
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-white);
+  font-family: var(--font-nunito);
+}
+.frameParent,
+.frameWrapper,
+.suppliers {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent {
+  width: 1427px;
+  flex-direction: row;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-7xl);
+  max-width: 100%;
+}
+.suppliers {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-gray-700);
+  overflow: hidden;
+  flex-direction: column;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 950px) {
+  .frameGroup {
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-38xl);
+    box-sizing: border-box;
+  }
+  .frameWrapper {
+    max-width: 100%;
+  }
+  .frameParent {
+    padding-left: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 700px) {
+  .rectangleParent {
+    padding-bottom: var(--padding-290xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .supplierNameParent {
+    gap: 81px 40px;
+  }
+  .frameGroup {
+    padding-bottom: var(--padding-18xl);
+    box-sizing: border-box;
+  }
+}

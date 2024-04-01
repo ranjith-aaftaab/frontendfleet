@@ -1,0 +1,66 @@
+.deskLightIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+}
+.parties {
+  position: relative;
+  display: inline-block;
+  min-width: 57px;
+  cursor: pointer;
+}
+.deskLightParent {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-6xs);
+}
+.mapPinIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.trips {
+  position: relative;
+  display: inline-block;
+  min-width: 40px;
+  cursor: pointer;
+}
+.driverNamePhoneNumberStatu {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) 0 0;
+}
+.searchLightInstance {
+  flex: 1;
+  flex-direction: row;
+  gap: var(--gap-6xs);
+}
+.frameParent,
+.frameWrapper,
+.searchLightInstance {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-7xl);
+}
+.frameWrapper {
+  height: 79px;
+  flex-direction: row;
+  padding: 0 var(--padding-4xs);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-white);
+  font-family: var(--font-nunito);
+}
