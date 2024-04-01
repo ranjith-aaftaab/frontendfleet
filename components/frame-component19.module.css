@@ -1,0 +1,97 @@
+.frameChild {
+  height: 80px;
+  width: 920px;
+  position: relative;
+  background-color: var(--color-gray-500);
+  display: none;
+  max-width: 100%;
+}
+.frameItem {
+  height: 37px;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-darkslategray-200);
+  border: 1px solid var(--color-dimgray-100);
+  box-sizing: border-box;
+  cursor: pointer;
+  z-index: 1;
+}
+.close {
+  position: relative;
+  display: inline-block;
+  min-width: 51px;
+  z-index: 2;
+}
+.closeWrapper,
+.rectangleGroup {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.closeWrapper {
+  flex-direction: column;
+  padding: var(--padding-8xs) 0 0;
+  margin-left: -82px;
+}
+.rectangleGroup {
+  width: 115px;
+  flex-direction: row;
+  padding: 0 var(--padding-12xl) 0 0;
+  box-sizing: border-box;
+}
+.frameInner {
+  height: 37px;
+  width: 143px;
+  position: relative;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-dimgray-100);
+  display: none;
+}
+.saveTrip {
+  position: relative;
+  display: inline-block;
+  min-width: 80px;
+  z-index: 2;
+}
+.rectangleContainer,
+.rectangleParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.rectangleContainer {
+  border-radius: var(--br-5xs);
+  background-color: var(--color-dimgray-100);
+  justify-content: flex-start;
+  padding: var(--padding-8xs) var(--padding-12xl) var(--padding-8xs)
+    var(--padding-13xl);
+  white-space: nowrap;
+  z-index: 1;
+  color: var(--color-white);
+}
+.rectangleParent {
+  align-self: stretch;
+  background-color: var(--color-gray-500);
+  justify-content: flex-end;
+  padding: var(--padding-2xl) var(--padding-38xl) var(--padding-3xl);
+  box-sizing: border-box;
+  gap: var(--gap-11xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-gainsboro-100);
+  font-family: var(--font-nunito);
+}
+@media screen and (max-width: 450px) {
+  .close {
+    font-size: var(--font-size-base);
+  }
+  .rectangleParent {
+    flex-wrap: wrap;
+    gap: 30px 15px;
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

@@ -29,9 +29,9 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: 2.7px 0 0;
+  padding: var(--padding-10xs-7) 0 0;
   font-size: var(--font-size-16xl);
-  color: #737373;
+  color: var(--color-dimgray-400);
 }
 .addTripButton,
 .selectParty,
@@ -47,7 +47,8 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: space-between;
-  padding: var(--padding-lg) var(--padding-15xl) 12.8px var(--padding-36xl);
+  padding: var(--padding-lg) var(--padding-15xl) var(--padding-smi-8)
+    var(--padding-36xl);
   box-sizing: border-box;
   top: 0;
   z-index: 99;
@@ -73,7 +74,7 @@
   width: 667px;
   position: relative;
   border-radius: var(--br-7xs);
-  border: 1px solid var(--color-dimgray-400);
+  border: 1px solid var(--color-dimgray-500);
   box-sizing: border-box;
   display: none;
   max-width: 100%;
@@ -86,7 +87,7 @@
 .egArjunReddy {
   font-size: var(--font-size-xl);
   font-family: var(--font-nunito);
-  color: var(--color-gray-1000);
+  color: var(--color-gray-800);
   text-align: left;
 }
 .playIcon {
@@ -110,7 +111,7 @@
 .playButton {
   align-self: stretch;
   border-radius: var(--br-7xs);
-  border: 1px solid var(--color-dimgray-400);
+  border: 1px solid var(--color-dimgray-500);
   flex-direction: row;
   justify-content: space-between;
   padding: var(--padding-3xs) var(--padding-19xl) var(--padding-3xs)
@@ -148,7 +149,7 @@
   width: 667px;
   position: relative;
   border-radius: var(--br-7xs);
-  border: 1px solid var(--color-dimgray-400);
+  border: 1px solid var(--color-dimgray-500);
   box-sizing: border-box;
   display: none;
   max-width: 100%;
@@ -161,7 +162,7 @@
 .egArjunReddy1 {
   font-size: var(--font-size-xl);
   font-family: var(--font-nunito);
-  color: var(--color-gray-1000);
+  color: var(--color-gray-800);
   text-align: left;
 }
 .playIcon1 {
@@ -189,7 +190,7 @@
 .rectangleParent {
   align-self: stretch;
   border-radius: var(--br-7xs);
-  border: 1px solid var(--color-dimgray-400);
+  border: 1px solid var(--color-dimgray-500);
   flex-direction: row;
   justify-content: space-between;
   padding: var(--padding-3xs) var(--padding-19xl) var(--padding-3xs)
@@ -223,7 +224,7 @@
   width: 370px;
   position: relative;
   border-radius: var(--br-7xs);
-  border: 1px solid var(--color-dimgray-400);
+  border: 1px solid var(--color-dimgray-500);
   box-sizing: border-box;
   display: none;
   max-width: 100%;
@@ -236,7 +237,7 @@
 .egBangalore {
   font-size: var(--font-size-xl);
   font-family: var(--font-nunito);
-  color: var(--color-gray-1000);
+  color: var(--color-gray-800);
   text-align: left;
   display: inline-block;
   min-width: 126px;
@@ -265,7 +266,7 @@
 .rectangleGroup {
   align-self: stretch;
   border-radius: var(--br-7xs);
-  border: 1px solid var(--color-dimgray-400);
+  border: 1px solid var(--color-dimgray-500);
   box-sizing: border-box;
   flex-direction: row;
   justify-content: space-between;
@@ -294,7 +295,7 @@
   width: 370px;
   position: relative;
   border-radius: var(--br-7xs);
-  border: 1px solid var(--color-dimgray-400);
+  border: 1px solid var(--color-dimgray-500);
   box-sizing: border-box;
   display: none;
   max-width: 100%;
@@ -307,7 +308,7 @@
 .egDelhi {
   font-size: var(--font-size-xl);
   font-family: var(--font-nunito);
-  color: var(--color-gray-1000);
+  color: var(--color-gray-800);
   text-align: left;
   display: inline-block;
   min-width: 81px;
@@ -333,7 +334,7 @@
 .rectangleContainer {
   align-self: stretch;
   border-radius: var(--br-7xs);
-  border: 1px solid var(--color-dimgray-400);
+  border: 1px solid var(--color-dimgray-500);
   flex-direction: row;
   justify-content: space-between;
   padding: var(--padding-3xs) var(--padding-5xl) var(--padding-3xs)
@@ -420,14 +421,14 @@
   width: 118px;
   position: relative;
   border-radius: var(--br-8xs);
-  background-color: var(--color-gainsboro-300);
+  background-color: var(--color-gainsboro-200);
   display: none;
 }
 .perTonne {
   position: relative;
   font-size: var(--font-size-lg);
   font-family: var(--font-nunito);
-  color: var(--color-gray-800);
+  color: var(--color-gray-900);
   text-align: left;
   display: inline-block;
   min-width: 82px;
@@ -436,7 +437,7 @@
 .frameChild2,
 .rectangleParent2 {
   border-radius: var(--br-8xs);
-  background-color: var(--color-gainsboro-300);
+  background-color: var(--color-gainsboro-200);
 }
 .rectangleParent2 {
   display: flex;
@@ -456,7 +457,7 @@
   position: relative;
   font-size: var(--font-size-lg);
   font-family: var(--font-nunito);
-  color: var(--color-gray-800);
+  color: var(--color-gray-900);
   text-align: left;
   display: inline-block;
   min-width: 54px;
@@ -465,7 +466,7 @@
 .frameChild3,
 .rectangleParent3 {
   border-radius: var(--br-8xs);
-  background-color: var(--color-gainsboro-300);
+  background-color: var(--color-gainsboro-200);
 }
 .rectangleParent3 {
   display: flex;
@@ -485,7 +486,7 @@
   position: relative;
   font-size: var(--font-size-lg);
   font-family: var(--font-nunito);
-  color: var(--color-gray-800);
+  color: var(--color-gray-900);
   text-align: left;
   display: inline-block;
   min-width: 59px;
@@ -494,7 +495,7 @@
 .frameChild4,
 .rectangleParent4 {
   border-radius: var(--br-8xs);
-  background-color: var(--color-gainsboro-300);
+  background-color: var(--color-gainsboro-200);
 }
 .rectangleParent4 {
   display: flex;
@@ -515,7 +516,7 @@
   position: relative;
   font-size: var(--font-size-lg);
   font-family: var(--font-nunito);
-  color: var(--color-gray-800);
+  color: var(--color-gray-900);
   text-align: left;
   display: inline-block;
   min-width: 63px;
@@ -524,7 +525,7 @@
 .frameChild5,
 .rectangleParent5 {
   border-radius: var(--br-8xs);
-  background-color: var(--color-gainsboro-300);
+  background-color: var(--color-gainsboro-200);
 }
 .rectangleParent5 {
   display: flex;
@@ -544,7 +545,7 @@
   position: relative;
   font-size: var(--font-size-lg);
   font-family: var(--font-nunito);
-  color: var(--color-gray-800);
+  color: var(--color-gray-900);
   text-align: left;
   display: inline-block;
   min-width: 72px;
@@ -553,7 +554,7 @@
 .frameChild6,
 .rectangleParent6 {
   border-radius: var(--br-8xs);
-  background-color: var(--color-gainsboro-300);
+  background-color: var(--color-gainsboro-200);
 }
 .rectangleParent6 {
   display: flex;
@@ -574,7 +575,7 @@
   position: relative;
   font-size: var(--font-size-lg);
   font-family: var(--font-nunito);
-  color: var(--color-gray-800);
+  color: var(--color-gray-900);
   text-align: left;
   display: inline-block;
   min-width: 68px;
@@ -583,7 +584,7 @@
 .frameChild7,
 .rectangleParent7 {
   border-radius: var(--br-8xs);
-  background-color: var(--color-gainsboro-300);
+  background-color: var(--color-gainsboro-200);
 }
 .rectangleParent7 {
   display: flex;
@@ -603,7 +604,7 @@
   position: relative;
   font-size: var(--font-size-lg);
   font-family: var(--font-nunito);
-  color: var(--color-gray-800);
+  color: var(--color-gray-900);
   text-align: left;
   display: inline-block;
   min-width: 64px;
@@ -619,7 +620,7 @@
 }
 .rectangleParent8 {
   border-radius: var(--br-8xs);
-  background-color: var(--color-gainsboro-300);
+  background-color: var(--color-gainsboro-200);
   padding: var(--padding-7xs) var(--padding-2xs) var(--padding-6xs);
   white-space: nowrap;
 }
@@ -643,7 +644,7 @@
   width: 370px;
   position: relative;
   border-radius: var(--br-7xs);
-  border: 1px solid var(--color-dimgray-400);
+  border: 1px solid var(--color-dimgray-500);
   box-sizing: border-box;
   display: none;
   max-width: 100%;
@@ -652,7 +653,7 @@
   position: relative;
   font-size: var(--font-size-xl);
   font-family: var(--font-nunito);
-  color: var(--color-gray-1000);
+  color: var(--color-gray-800);
   text-align: left;
   display: inline-block;
   min-width: 115px;
@@ -668,7 +669,7 @@
 .groupDiv {
   align-self: stretch;
   border-radius: var(--br-7xs);
-  border: 1px solid var(--color-dimgray-400);
+  border: 1px solid var(--color-dimgray-500);
   box-sizing: border-box;
   flex-direction: row;
   padding: var(--padding-3xs) var(--padding-sm);
@@ -693,7 +694,7 @@
   width: 370px;
   position: relative;
   border-radius: var(--br-7xs);
-  border: 1px solid var(--color-dimgray-400);
+  border: 1px solid var(--color-dimgray-500);
   box-sizing: border-box;
   display: none;
   max-width: 100%;
@@ -702,7 +703,7 @@
   position: relative;
   font-size: var(--font-size-xl);
   font-family: var(--font-nunito);
-  color: var(--color-gray-1000);
+  color: var(--color-gray-800);
   text-align: left;
   display: inline-block;
   min-width: 113px;
@@ -727,7 +728,7 @@
   align-self: stretch;
   flex: 1;
   border-radius: var(--br-7xs);
-  border: 1px solid var(--color-dimgray-400);
+  border: 1px solid var(--color-dimgray-500);
   box-sizing: border-box;
   display: flex;
   flex-direction: row;
@@ -800,7 +801,7 @@
   width: 370px;
   position: relative;
   border-radius: var(--br-7xs);
-  border: 1px solid var(--color-dimgray-400);
+  border: 1px solid var(--color-dimgray-500);
   box-sizing: border-box;
   display: none;
   max-width: 100%;
@@ -809,7 +810,7 @@
   position: relative;
   font-size: var(--font-size-xl);
   font-family: var(--font-nunito);
-  color: var(--color-gray-1000);
+  color: var(--color-gray-800);
   text-align: left;
   display: inline-block;
   min-width: 128px;
@@ -826,7 +827,7 @@
   position: relative;
   font-size: var(--font-size-xl);
   font-family: var(--font-nunito);
-  color: var(--color-gray-1000);
+  color: var(--color-gray-800);
   text-align: left;
   display: inline-block;
   min-width: 40px;
@@ -835,7 +836,7 @@
 .rectangleParent10 {
   align-self: stretch;
   border-radius: var(--br-7xs);
-  border: 1px solid var(--color-dimgray-400);
+  border: 1px solid var(--color-dimgray-500);
   box-sizing: border-box;
   display: flex;
   flex-direction: row;
@@ -902,7 +903,7 @@
   flex: 1;
   position: relative;
   border-radius: var(--br-5xs);
-  background-color: var(--color-darkslategray-300);
+  background-color: var(--color-darkslategray-200);
   border: 1px solid var(--color-dimgray-100);
   box-sizing: border-box;
   cursor: pointer;
@@ -974,16 +975,16 @@
   gap: var(--gap-11xl);
   text-align: left;
   font-size: var(--font-size-xl);
-  color: var(--color-gainsboro-200);
+  color: var(--color-gainsboro-100);
   font-family: var(--font-nunito);
 }
 .frameParent {
   width: 920px;
-  background-color: var(--color-darkslategray-200);
+  background-color: var(--color-darkslategray-300);
   overflow: hidden;
   flex-direction: column;
   justify-content: flex-start;
-  gap: 125px;
+  gap: var(--gap-106xl);
   letter-spacing: normal;
   max-height: 100%;
 }

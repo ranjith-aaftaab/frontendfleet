@@ -2,7 +2,7 @@
   height: 38px;
   width: 418px;
   position: relative;
-  background-color: var(--color-gray-900);
+  background-color: var(--color-gray-1000);
   display: none;
   max-width: 100%;
 }
@@ -34,7 +34,7 @@
 }
 .matrixSolver {
   align-self: stretch;
-  background-color: var(--color-gray-900);
+  background-color: var(--color-gray-1000);
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -47,7 +47,7 @@
   height: 156px;
   position: relative;
   border-radius: var(--br-sm);
-  border: 1px solid var(--color-silver);
+  border: 1px solid var(--color-silver-100);
   display: none;
 }
 .hussain,
@@ -60,7 +60,7 @@
   z-index: 1;
 }
 .nagpurMaharastraEast {
-  color: var(--color-gray-800);
+  color: var(--color-gray-900);
 }
 .multiplier {
   flex: 1;
@@ -139,7 +139,7 @@
 .rectangleParent {
   flex: 1;
   border-radius: var(--br-sm);
-  border: 1px solid var(--color-silver);
+  border: 1px solid var(--color-silver-100);
   flex-direction: column;
   align-items: flex-end;
   justify-content: flex-start;
@@ -180,7 +180,7 @@
   height: 97px;
   width: 358px;
   border-radius: var(--br-sm);
-  border: 1px solid var(--color-silver);
+  border: 1px solid var(--color-silver-100);
   box-sizing: border-box;
 }
 .nagpurCo5Hiwarkar {
@@ -190,7 +190,7 @@
 }
 .nagpurMaharastraEast1 {
   position: relative;
-  color: var(--color-gray-800);
+  color: var(--color-gray-900);
   z-index: 1;
 }
 .absValCalculator {
@@ -220,7 +220,7 @@
 .rectangleContainer,
 .rectangleDiv {
   border-radius: var(--br-sm);
-  border: 1px solid var(--color-silver);
+  border: 1px solid var(--color-silver-100);
   box-sizing: border-box;
   max-width: 100%;
 }
@@ -252,7 +252,7 @@
 .nagpurMaharashtraEast {
   align-self: stretch;
   height: 20px;
-  color: var(--color-gray-800);
+  color: var(--color-gray-900);
 }
 .dighoriParent {
   width: 186px;
@@ -288,7 +288,7 @@
 .groupDiv {
   align-self: stretch;
   border-radius: var(--br-sm);
-  border: 1px solid var(--color-silver);
+  border: 1px solid var(--color-silver-100);
   flex-direction: row;
   align-items: flex-end;
   justify-content: space-between;

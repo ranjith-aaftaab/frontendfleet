@@ -1,0 +1,60 @@
+.frameChild {
+  height: 63px;
+  width: 920px;
+  position: relative;
+  background-color: var(--color-gray-500);
+  display: none;
+  max-width: 100%;
+}
+.addTrip,
+.x {
+  position: relative;
+  font-weight: 800;
+  display: inline-block;
+  min-width: 82px;
+  white-space: nowrap;
+  z-index: 1;
+}
+.x {
+  margin: 0;
+  height: 30px;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  min-width: 19px;
+  cursor: pointer;
+}
+.rectangleParent,
+.tripDetailsLabel {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs-7) 0 0;
+  font-size: var(--font-size-16xl);
+  color: var(--color-dimgray-400);
+}
+.rectangleParent {
+  align-self: stretch;
+  background-color: var(--color-gray-500);
+  flex-direction: row;
+  justify-content: space-between;
+  padding: var(--padding-lg) var(--padding-15xl) var(--padding-smi-8)
+    var(--padding-36xl);
+  box-sizing: border-box;
+  top: 0;
+  z-index: 99;
+  position: sticky;
+  max-width: 100%;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+  font-family: var(--font-nunito);
+}
+@media screen and (max-width: 450px) {
+  .rectangleParent {
+    padding-left: var(--padding-8xl);
+    box-sizing: border-box;
+  }
+}

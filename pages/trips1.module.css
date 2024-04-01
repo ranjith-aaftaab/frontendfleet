@@ -142,7 +142,7 @@
 }
 .conditionalRenderer {
   align-self: stretch;
-  gap: 36px;
+  gap: var(--gap-17xl);
 }
 .test2 {
   margin: 0;
@@ -290,7 +290,7 @@
 .frameItem {
   width: 39px;
   height: 1px;
-  border-top: 1px solid var(--color-gray-800);
+  border-top: 1px solid var(--color-gray-900);
   box-sizing: border-box;
 }
 .delhiParent,
@@ -317,7 +317,7 @@
 .march2024 {
   position: relative;
   font-size: var(--font-size-xs);
-  color: var(--color-gray-800);
+  color: var(--color-gray-900);
   display: inline-block;
   min-width: 83px;
   z-index: 2;
@@ -334,7 +334,7 @@
   left: 0;
   border-radius: 50%;
   background-color: var(--color-black);
-  border: 0 solid var(--color-gray-800);
+  border: 0 solid var(--color-gray-900);
   box-sizing: border-box;
   width: 100%;
   height: 100%;
@@ -365,7 +365,7 @@
   width: 39px;
   height: 1px;
   position: relative;
-  border-top: 1px solid var(--color-gray-800);
+  border-top: 1px solid var(--color-gray-900);
   box-sizing: border-box;
   z-index: 1;
 }
@@ -392,7 +392,7 @@
 .march20241 {
   position: relative;
   font-size: var(--font-size-xs);
-  color: var(--color-gray-800);
+  color: var(--color-gray-900);
   display: inline-block;
   min-width: 83px;
   z-index: 2;
@@ -551,7 +551,7 @@
 .march20242 {
   position: relative;
   font-size: var(--font-size-xs);
-  color: var(--color-gray-800);
+  color: var(--color-gray-900);
   display: inline-block;
   min-width: 83px;
 }
@@ -579,7 +579,7 @@
 .march20243 {
   position: relative;
   font-size: var(--font-size-xs);
-  color: var(--color-gray-800);
+  color: var(--color-gray-900);
   display: inline-block;
   min-width: 83px;
 }
@@ -612,7 +612,7 @@
   flex-direction: row;
   padding: 0 var(--padding-4xs) 0 var(--padding-5xs);
   font-size: var(--font-size-xs);
-  color: var(--color-gray-800);
+  color: var(--color-gray-900);
 }
 .pdoReceivedParent {
   flex-direction: column;
@@ -925,7 +925,7 @@
 .footer {
   height: 1px;
   position: relative;
-  border-top: 1px solid var(--color-gray-800);
+  border-top: 1px solid var(--color-gray-900);
   z-index: 1;
 }
 .gridLayout,
@@ -969,7 +969,7 @@
   align-self: stretch;
   height: 1px;
   position: relative;
-  border-top: 1px solid var(--color-gray-800);
+  border-top: 1px solid var(--color-gray-900);
   box-sizing: border-box;
   z-index: 1;
 }
@@ -1166,7 +1166,7 @@
 .stackLayoutItem {
   height: 1px;
   position: relative;
-  border-top: 1px solid var(--color-gray-800);
+  border-top: 1px solid var(--color-gray-900);
   z-index: 1;
 }
 .stackLayout {
@@ -1418,7 +1418,7 @@
   align-self: stretch;
   height: 1px;
   position: relative;
-  border-top: 1px solid var(--color-darkslategray-300);
+  border-top: 1px solid var(--color-darkslategray-200);
   box-sizing: border-box;
   z-index: 2;
 }
@@ -1590,7 +1590,7 @@
   align-self: stretch;
   height: 1px;
   position: relative;
-  border-top: 1px solid var(--color-darkslategray-300);
+  border-top: 1px solid var(--color-darkslategray-200);
   box-sizing: border-box;
   z-index: 2;
 }
@@ -1837,7 +1837,7 @@
   flex-direction: column;
   align-items: flex-end;
   padding: var(--padding-mini) var(--padding-xs) var(--padding-2xs);
-  gap: 79px;
+  gap: var(--gap-60xl);
   max-width: 100%;
 }
 .iconArrayBuilder,

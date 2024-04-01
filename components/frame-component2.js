@@ -1,6 +1,7 @@
 import { useState, useMemo, useCallback } from "react";
-import Frame1 from "./frame1";
+import Frame2 from "./frame2";
 import PortalPopup from "./portal-popup";
+import Frame1 from "./frame1";
 import UserAltFillIcon from "./user-alt-fill-icon";
 import styles from "./frame-component2.module.css";
 
@@ -14,6 +15,7 @@ const FrameComponent2 = ({
   plusIconMinWidth,
 }) => {
   const [isFrameOpen, setFrameOpen] = useState(false);
+  const [isFrame1Open, setFrame1Open] = useState(false);
   const frameDiv1Style = useMemo(() => {
     return {
       width: frameDivWidth,
@@ -47,6 +49,14 @@ const FrameComponent2 = ({
     setFrameOpen(false);
   }, []);
 
+  const openFrame1 = useCallback(() => {
+    setFrame1Open(true);
+  }, []);
+
+  const closeFrame1 = useCallback(() => {
+    setFrame1Open(false);
+  }, []);
+
   return (
     <>
       <header className={styles.frameParent}>
@@ -74,7 +84,7 @@ const FrameComponent2 = ({
         <div className={styles.partySupplierWrapper}>
           <div className={styles.partySupplier} style={partySupplierStyle}>
             <div className={styles.moneyIcon}>
-              <div className={styles.moneyIconChild} />
+              <div className={styles.moneyIconChild} onClick={openFrame} />
               <div className={styles.addParty} style={addPartyStyle}>
                 {addParty}
               </div>
@@ -86,7 +96,7 @@ const FrameComponent2 = ({
               />
             </div>
             <div className={styles.moneyIcon1}>
-              <div className={styles.moneyIconItem} onClick={openFrame} />
+              <div className={styles.moneyIconItem} onClick={openFrame1} />
               <img
                 className={styles.plusIcon1}
                 loading="lazy"
@@ -104,7 +114,16 @@ const FrameComponent2 = ({
           placement="Centered"
           onOutsideClick={closeFrame}
         >
-          <Frame1 onClose={closeFrame} />
+          <Frame2 onClose={closeFrame} />
+        </PortalPopup>
+      )}
+      {isFrame1Open && (
+        <PortalPopup
+          overlayColor="rgba(113, 113, 113, 0.3)"
+          placement="Centered"
+          onOutsideClick={closeFrame1}
+        >
+          <Frame1 onClose={closeFrame1} />
         </PortalPopup>
       )}
     </>

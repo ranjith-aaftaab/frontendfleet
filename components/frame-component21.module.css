@@ -1,0 +1,236 @@
+.billingInformation {
+  position: relative;
+}
+.partyBillingAmount {
+  position: relative;
+  font-size: var(--font-size-mini);
+  color: var(--color-lightgray);
+}
+.fixedPricePerTonneLabelChild {
+  height: 42px;
+  width: 87px;
+  position: relative;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-lightskyblue);
+  border: 2px solid var(--color-midnightblue-100);
+  box-sizing: border-box;
+  display: none;
+}
+.fixed {
+  position: relative;
+  display: inline-block;
+  min-width: 44px;
+  z-index: 1;
+}
+.fixedPricePerTonneLabel {
+  width: 87px;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-lightskyblue);
+  border: 2px solid var(--color-midnightblue-100);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-7xs) var(--padding-mid) var(--padding-6xs)
+    var(--padding-lg);
+  color: var(--color-mediumslateblue-200);
+}
+.fixedPricePerTonneLabelItem {
+  height: 38px;
+  width: 118px;
+  position: relative;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-gainsboro-200);
+  display: none;
+}
+.perTonne {
+  position: relative;
+  display: inline-block;
+  min-width: 82px;
+  z-index: 1;
+}
+.fixedPricePerTonneLabel1,
+.fixedPricePerTonneLabelInner {
+  border-radius: var(--br-8xs);
+  background-color: var(--color-gainsboro-200);
+}
+.fixedPricePerTonneLabel1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-7xs) var(--padding-lg) var(--padding-6xs);
+  white-space: nowrap;
+}
+.fixedPricePerTonneLabelInner {
+  height: 38px;
+  width: 78px;
+  position: relative;
+  display: none;
+}
+.perKg {
+  position: relative;
+  display: inline-block;
+  min-width: 54px;
+  z-index: 1;
+}
+.fixedPricePerTonneLabel2,
+.rectangleDiv {
+  border-radius: var(--br-8xs);
+  background-color: var(--color-gainsboro-200);
+}
+.fixedPricePerTonneLabel2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-7xs) var(--padding-xs) var(--padding-6xs);
+  white-space: nowrap;
+}
+.rectangleDiv {
+  height: 38px;
+  width: 78px;
+  position: relative;
+  display: none;
+}
+.perKm {
+  position: relative;
+  display: inline-block;
+  min-width: 59px;
+  z-index: 1;
+}
+.fixedPricePerTonneLabel3,
+.fixedPricePerTonneLabelChild1 {
+  border-radius: var(--br-8xs);
+  background-color: var(--color-gainsboro-200);
+}
+.fixedPricePerTonneLabel3 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-7xs) var(--padding-4xs) var(--padding-6xs)
+    var(--padding-3xs);
+  white-space: nowrap;
+}
+.fixedPricePerTonneLabelChild1 {
+  height: 38px;
+  width: 84px;
+  position: relative;
+  display: none;
+}
+.perTrip {
+  position: relative;
+  display: inline-block;
+  min-width: 63px;
+  z-index: 1;
+}
+.fixedPricePerTonneLabel4,
+.fixedPricePerTonneLabelChild2 {
+  border-radius: var(--br-8xs);
+  background-color: var(--color-gainsboro-200);
+}
+.fixedPricePerTonneLabel4 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-7xs) var(--padding-3xs) var(--padding-6xs);
+  white-space: nowrap;
+}
+.fixedPricePerTonneLabelChild2 {
+  height: 38px;
+  width: 91px;
+  position: relative;
+  display: none;
+}
+.perHour {
+  position: relative;
+  display: inline-block;
+  min-width: 72px;
+  z-index: 1;
+}
+.fixedPricePerTonneLabel5,
+.fixedPricePerTonneLabelChild3 {
+  border-radius: var(--br-8xs);
+  background-color: var(--color-gainsboro-200);
+}
+.fixedPricePerTonneLabel5 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-7xs) var(--padding-4xs) var(--padding-6xs)
+    var(--padding-3xs);
+  white-space: nowrap;
+}
+.fixedPricePerTonneLabelChild3 {
+  height: 38px;
+  width: 91px;
+  position: relative;
+  display: none;
+}
+.perLitre {
+  position: relative;
+  display: inline-block;
+  min-width: 68px;
+  z-index: 1;
+}
+.fixedPricePerTonneLabel6,
+.fixedPricePerTonneLabelChild4 {
+  border-radius: var(--br-8xs);
+  background-color: var(--color-gainsboro-200);
+}
+.fixedPricePerTonneLabel6 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-7xs) var(--padding-2xs) var(--padding-6xs);
+  white-space: nowrap;
+}
+.fixedPricePerTonneLabelChild4 {
+  height: 38px;
+  width: 86px;
+  position: relative;
+  display: none;
+}
+.perBag {
+  position: relative;
+  display: inline-block;
+  min-width: 64px;
+  z-index: 1;
+}
+.fixedPricePerTonneLabel7 {
+  border-radius: var(--br-8xs);
+  background-color: var(--color-gainsboro-200);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-7xs) var(--padding-2xs) var(--padding-6xs);
+  white-space: nowrap;
+}
+.billingInformationParent,
+.fixedPricePerTonneLabelParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-4xs);
+  color: var(--color-gray-900);
+}
+.billingInformationParent {
+  flex-direction: column;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-white);
+  font-family: var(--font-nunito);
+}
+@media screen and (max-width: 850px) {
+  .fixedPricePerTonneLabelParent {
+    flex-wrap: wrap;
+  }
+}

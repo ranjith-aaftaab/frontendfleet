@@ -174,7 +174,7 @@
   top: 0;
   left: 0;
   border-radius: var(--br-5xs);
-  background-color: var(--color-darkslategray-300);
+  background-color: var(--color-darkslategray-200);
   border: 1px solid var(--color-dimgray-100);
   box-sizing: border-box;
   width: 100%;
@@ -203,7 +203,7 @@
   align-self: stretch;
   height: 37px;
   position: relative;
-  color: var(--color-gainsboro-200);
+  color: var(--color-gainsboro-100);
 }
 .frameDiv,
 .frameParent1 {
@@ -309,7 +309,7 @@
   height: 8px;
   position: relative;
   border-radius: 50%;
-  background-color: var(--color-gainsboro-100);
+  background-color: var(--color-gainsboro-300);
 }
 .userCircleLightWrapper {
   display: flex;
@@ -330,7 +330,7 @@
   justify-content: flex-start;
   gap: var(--gap-4xs);
   font-size: var(--font-size-lg);
-  color: var(--color-gray-800);
+  color: var(--color-gray-900);
 }
 .frameParent5 {
   flex-direction: column;
@@ -409,7 +409,7 @@
   padding: var(--padding-21xl) var(--padding-2xl) var(--padding-19xl);
   gap: var(--gap-6xl);
   font-size: var(--font-size-xl);
-  color: var(--color-gray-800);
+  color: var(--color-gray-900);
 }
 .frameParent3,
 .frameWrapper2,
@@ -421,7 +421,7 @@
 .frameParent3 {
   align-self: stretch;
   border-radius: var(--br-6xs);
-  background-color: var(--color-darkslategray-200);
+  background-color: var(--color-darkslategray-300);
   overflow: hidden;
   align-items: flex-end;
   padding: var(--padding-32xl) var(--padding-28xl);
@@ -565,7 +565,7 @@
   padding: var(--padding-8xl) var(--padding-6xl) 97px;
   gap: var(--gap-5xs);
   font-size: var(--font-size-xl);
-  color: var(--color-gray-800);
+  color: var(--color-gray-900);
 }
 .addressBlock,
 .cityPincode,
@@ -577,7 +577,7 @@
 .cityPincode {
   align-self: stretch;
   border-radius: var(--br-6xs);
-  background-color: var(--color-darkslategray-200);
+  background-color: var(--color-darkslategray-300);
   overflow: hidden;
   display: flex;
   align-items: flex-start;

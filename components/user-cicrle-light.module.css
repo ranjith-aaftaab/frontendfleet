@@ -1,0 +1,39 @@
+.frameChild,
+.frameItem {
+  position: absolute;
+  top: 4px;
+  left: 6px;
+  border-radius: 50%;
+  border: 0 solid var(--color-gray-400);
+  box-sizing: border-box;
+  width: 7px;
+  height: 7px;
+}
+.frameItem {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.frameInner {
+  position: absolute;
+  top: 12px;
+  left: 3px;
+  width: 12px;
+  height: 3.7px;
+  z-index: 2;
+}
+.ellipseParent {
+  height: 18px;
+  width: 18px;
+  position: relative;
+}
+.userCicrleLight {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs);
+  letter-spacing: normal;
+}
